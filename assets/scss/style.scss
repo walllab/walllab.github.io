@@ -1,0 +1,322 @@
+@import "bourbon/bourbon";
+@import "grid-settings";
+@import "bitters/bitters";
+@import "neat/neat";
+
+//@import "typo";
+@import "normalize";
+@import "colors";
+@import "flexslider";
+@import "jquery.countdown";
+@import "video";
+@import "forms";
+@import "typo";
+@import "animate";
+@import "nav";
+
+
+body {
+    margin:60px 0 0 0;//86px is the height of the fixed-height header/nav bar
+}
+
+.float-right{float:right}
+.float-left{float:left}
+
+// omega class
+.omega {@include omega();}
+
+.row {
+    @include outer-container;
+    //	@include pad(0 0 20px 0);
+
+}
+
+.main { // this is the outer container
+
+    // wow, this line below adds padding to the MAIN element. works well.
+    // normally id add this to aside and section instead. lets roll with this.
+    // @include pad(30px 0px);
+}
+
+
+// headers inside section boxes
+// color of which is in color.scss
+section header {
+    padding:0;
+    margin:0;
+}
+
+body > footer {
+    padding-top: 2rem;
+}
+
+.post section, aside section {
+    //@include pad(20px);
+}
+aside section{margin-top:7px}
+
+.post section {padding-right:20px;}
+
+
+.feature-box{ padding:20px}
+
+.page_number {
+    border-left: 1px solid;
+    border-right: 1px solid;
+    padding: 0 0.5em;
+}
+
+// front page stuff
+#mission {
+    padding:20px;
+    z-index:10;
+}
+#mission-share{
+
+    font-size:14px;
+    margin:0;
+    a:link,a:visited{padding-right:20px;}
+}
+
+.underway p { font-size: 1.6em; margin: 1em 0; }
+
+/* classes used for animated elements */
+.scroller { opacity:0; }
+.scroller.animated { opacity:initial; }
+.fadeIn.shortdelay {
+    -webkit-animation-delay: 900ms;
+    animation-delay: 900ms;
+}
+.fadeIn.longdelay {
+    -webkit-animation-delay: 1000ms;
+    animation-delay: 1000ms;
+}
+
+.two-thirds:last-child { text-align: justify; }
+
+@include media($mobile) { // grid has 4 columns in total
+
+    // body {background: red; }
+    .frontpage img{padding-left:45px;} // centers the images on mobile
+    .row {
+        // give content some breathing room on small screens
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    // HIDE ON MOBILE
+    .hide-on-mobile{display:none;visibility:hidden}
+    .hide-on-desktop{display:block;visibility:visible}
+
+    main {@include span-columns(4);}
+    aside section{@include span-columns(4);}
+
+    .main .row { padding-bottom: 0 }
+
+    // frontpage column, third of the width of #main.
+    .third{@include span-columns(4);}
+    .two-thirds{@include span-columns(4);}
+    .half {@include span-columns(4);}
+    .quarter{@include span-columns(4);}
+    .three-quarters{@include span-columns(4);}
+
+
+    ul.horizontal{
+
+    }
+
+    // what is bio mission
+    #mission {
+        @include span-columns(4);
+        h1 {font-size:25px}
+    }
+
+    .featured {padding:20px 0 20px 0}
+
+    .featured .row {
+        position: relative;
+        z-index:10;
+    }
+
+    #lab-name { position:relative; z-index:10; }
+    #top-pane {// really just the top .featured on the front page
+        height:328px;
+        background: #f0f0f0;
+
+        .row {// so that #wl is positioned within this element; keeps #wl fixed to left margin
+            position: relative;
+            //	background:url("/assets/images/walllab-banner.jpg") center no-repeat;
+
+        }
+
+        #wl{
+            //position:absolute;
+            //background: url("/assets/images/walllab-banner-fade.png") right no-repeat;
+            height:330px;
+            width:100%;
+            opacity:.3;
+        }
+
+        #mission{margin-top:110px;}
+    }
+
+    //#second-pane{padding-top:80px}
+
+
+    /* bio pages are the individual pages for lab members */
+    .biopages {
+        margin:100px 0;
+        h1 {font-size:45px;margin-top:0;margin-bottom:.3em}
+        h6 {font-size:120%;margin-top:0}
+    }
+
+
+
+
+}
+@media( min-width: 500px ){
+
+
+
+}
+@include media($tablet) { // grid has 8 columns in total
+    // body 	{background: yellow;}
+    .hide-on-mobile{display:block;visibility:visible}
+    .hide-on-desktop{display:none;visibility:hidden}
+
+    main {@include span-columns(5); }
+    aside section {@include span-columns(3);}
+
+    // frontpage column, third of the width of #main.
+    .third{
+        @include span-columns(2.6);
+
+    }
+    .two-thirds{@include span-columns(5.2);}
+    .half {@include span-columns(4);}
+    .quarter{@include span-columns(2);}
+    .three-quarters{@include span-columns(6);}
+
+    .frontpage img{padding-left:0;} // stops centering the icons on front page, moves to left.
+
+    //.featured {padding:20px 0 20px 0}
+
+    #mission {
+        @include span-columns(8);
+        //	@include shift(3);
+        h1 {font-size:28px;line-height:40px;}
+    }
+
+
+
+    .featured {padding:40px 0 20px 0}
+
+}
+/*
+@include media($phone) { // grid has 4 columns in total
+
+
+}
+@include media($tablet) { // grid has  columns in total
+
+}
+ */
+
+@include media($desktop) { // grid has 12 columns in total
+    // body { background: green; }
+
+
+
+
+    main {@include span-columns(8);}
+    aside section {@include span-columns(4);}
+
+    // frontpage column, third of the width of #main.
+    .third{@include span-columns(4);}
+    .two-thirds{@include span-columns(8);}
+    .half {@include span-columns(6);}
+    .quarter{@include span-columns(3);}
+    .three-quarters{@include span-columns(9)}
+
+
+    #mission {
+        @include span-columns(8);
+        //	@include shift(4);
+        h1 {font-size:40px;line-height:45px;}
+    }
+
+    // reset to widescreen, multi-column layout defaults
+    //  .row { padding-bottom: 20px; }
+
+    footer { padding: 0; }
+
+}
+
+@include media($largedesktop) { // grid has 16 columns in total
+    // body 	{background: purple;}
+
+    main {@include span-columns(11);}
+    aside section {@include span-columns(5);}
+
+    // frontpage column, third of the width of #main.
+    .third{@include span-columns(5);} // fractional columns! close enough for browsers to round up to 16 total
+    .two-thirds{@include span-columns(11);}
+    .half {@include span-columns(8);}
+    .quarter{@include span-columns(4);}
+    .three-quarters{@include span-columns(12)}
+
+
+    #mission {
+        @include span-columns(10);
+        //	@include shift(6);
+        h1 {
+            font-size:52px;
+            line-height:52px;
+        }
+    }
+
+
+
+}
+
+.bio:nth-child(3n+2){
+    clear:left
+}
+
+.bio{
+    @extend .third;
+}
+#projects-menu{display:none}
+.projects #projects-menu{display:block}
+
+.contact-container {
+    display: block;
+    width: 80%;
+    margin: 20px auto 20px;
+
+}
+.contact-row {
+    position: relative;
+    z-index:100;
+    .close {
+        position:absolute;
+        top:20px;
+        right:20px;
+        padding: 4px 8px;
+        //	background-color: $blue;
+        color:$violet;
+    }
+}
+
+a.anchor{display: block; position: relative; top: -80px; visibility: hidden;}
+
+.social-type-links {height:30px} //people page
+
+.project-description {
+  top: 30px;
+  position: relative;
+}
+
+.landing-project-description {
+  font-size: 1.15em;
+}

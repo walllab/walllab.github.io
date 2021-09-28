@@ -1,0 +1,18 @@
+
+{% capture v %} {{ person.content | number_of_words | minus: 60  }} {% endcapture %}
+<div class="row">
+    <div class="quarter">
+        <img src="{{ site.url }}/assets/images/bios/{{ person.picture }}" />
+    </div>
+    <div class="three-quarters">
+        <h3>{{person.first_name}} {{ person.last_name }}</h3>
+        <h4>{{person.position}}</h4>
+        <p>{{ person.content | markdownify | truncatewords: word_number | strip_html }}
+          {% unless v contains '-' %}
+          <a class="readmore" href="{{ site.url }}{{person.url | remove_first: "/index.html"}}">Read more</a>
+          {% else %}
+          {% endunless %}
+        </p>
+    </div>
+</div>
+<hr />

@@ -1,0 +1,13 @@
+current directory: /Users/michaelning/wall_lab/wall.stanford.edu/vendor/bundle/ruby/2.3.0/gems/json-1.8.3/ext/json
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/bin/ruby -r ./siteconf20190322-22582-1rihy5a.rb extconf.rb
+creating Makefile
+
+current directory: /Users/michaelning/wall_lab/wall.stanford.edu/vendor/bundle/ruby/2.3.0/gems/json-1.8.3/ext/json
+make "DESTDIR=" clean
+
+current directory: /Users/michaelning/wall_lab/wall.stanford.edu/vendor/bundle/ruby/2.3.0/gems/json-1.8.3/ext/json
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+current directory: /Users/michaelning/wall_lab/wall.stanford.edu/vendor/bundle/ruby/2.3.0/gems/json-1.8.3/ext/json
+make "DESTDIR=" install

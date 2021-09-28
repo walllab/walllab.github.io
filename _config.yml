@@ -1,0 +1,15 @@
+name: The Wall Lab
+description: Wall Lab at Stanford School of Medicine
+url: https://wall-lab.stanford.edu
+markdown: kramdown
+highlighter: rouge
+paginate: 5
+permalink: pretty
+paginate_path: "news/page:num/index.html"
+excerpt_separator: "<!--more-->"
+plugins: [jekyll-paginate, jekyll-gist, jekyll-redirect-from]
+gems:
+  - jekyll-redirect-from
+exclude: [vendor]
+# baseurl: /
+# baseurl: /wall.stanford.edu

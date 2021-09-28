@@ -1,0 +1,235 @@
+---
+layout: default
+title: Wall Lab at Stanford University
+body_class: frontpage
+published: true
+---
+<div id="top-pane" class="hide-on-mobile">
+
+    <div class="row">
+        <div id="mission">
+            <div id="lab-name" class="fadeIn animated longdelay">
+                <h1>
+                    The Wall Lab at</br> Stanford School of Medicine
+                </h1>
+                <div id="mission-share">
+                    <a href="https://twitter.com/TheWallLab" class="icon-twitter">follow on twitter</a>
+                    <a href="http://facebook.com/TheWallLab" class="icon-facebook-squared ">follow on facebook</a>
+                </div>
+            </div>
+        </div>
+        <div id="wl" style="background: url('{{ site.url }}/assets/images/walllab-banner-fade.png') right no-repeat"></div>
+    </div>
+</div>
+
+<div id="scrollanimate">
+    <div class="featured mid-pane">
+
+
+
+        <div class="row">
+
+            <section class="third ">
+
+                <img src="{{ site.url }}/assets/images/icons/icon1.png" />
+
+
+            </section>
+
+
+            <section class="two-thirds">
+                <h2>Our Research Focus</h2>
+
+                Translating the thinking of systems biology to the field of autism genetics with the intent to develop effective early-stage diagnostics and targets for therapeutic intervention. The work involves the generation and analysis of genomic and phenotypic databases using computational tools of systems biology, machine learning and network inference.
+
+            </section>
+
+
+
+        </div>
+
+    </div>
+
+
+
+    <div class="featured mid-pane">
+
+        <div class="row">
+
+            <section class="third ">
+                <img src="{{ site.url }}/assets/images/icons/icon3.png" />
+            </section>
+
+            <section class="two-thirds">
+                <h2>Clinical Research</h2>
+
+                Efforts to understand and characterize the clinical significance and utility of human genetic variation. This work involves clinical-grade annotation of human genetic variation, estimating the rates of both true and false positives in present day genetic testing and their likely impacts on the practice of personalized care, the construction of an authoritative knowledgebase for clinical decision support, and efforts in educating present and future doctors on the potentials of genomics in individualized healthcare.
+
+            </section>
+
+
+
+
+
+        </div>
+
+    </div>
+
+
+    <div class="featured mid-pane">
+
+        <div class="row">
+
+
+
+            <section class="third">
+
+                <img src="{{ site.url }}/assets/images/icons/icon2.png" />
+
+            </section>
+
+            <section class="two-thirds">
+                <h2>Computational Disease Analyses</h2>
+                Redefining human diseases through computational and comparative network analysis. The work involves the integration and analysis of transcriptomic, genomic and bibliomic data to network all known human diseases. Deliverables include revealing disease connections, properly reshaping blurred boundaries of classification, and opportunities for drug treatment repositioning.
+
+            </section>
+
+
+
+        </div>
+
+    </div>
+
+
+
+
+    <div id="scrollanimate">
+        <div class="featured mid-pane">
+
+
+
+            <div class="row">
+
+                <section class="third">
+
+                    <img src="{{ site.url }}/assets/images/icons/icon4.png" />
+
+
+                </section>
+
+
+                <section class="two-thirds">
+                    <h2>Current Projects</h2>
+
+                    <p>Our lab is interested in the design and application of translational bioinformatics tools to help bring whole-genomic data to the point of clinical care. Our research projects are designed to complement and potentially supplant standard molecular diagnostics currently being used to characterize a patient’s autoimmune deficiencies and/or complex behavioral disorders, with the intent to have a faster and more robust system in place for real-time genomic diagnostics. <a class="yellow" href="{{ site.url }}/research">(Find out more)</a>
+                    </p>
+                </section>
+
+
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+
+    <div class="main">
+
+
+
+        <div class="row">
+
+            <div class="half">
+
+                <h4 id="latest-photos" class="hide-on-mobile">Photos</h4>
+
+                <div id="sidebar-photos" class="flexslider hide-on-mobile">
+                    <ul class="slides">
+                        <li>
+                            <img src="{{ site.url }}/assets/images/news/Google_Glass_1.png" />
+                        </li>
+                        <li>
+                            <img src="{{ site.url }}/assets/images/photos/lab1.jpg" />
+                        </li>
+                        <li>
+                            <img src="{{ site.url }}/assets/images/photos/lab2.jpg" />
+                        </li>
+                        <li>
+                            <img src="{{ site.url }}/assets/images/photos/lab3.jpg" />
+                        </li>
+                        <li>
+                            <img src="{{ site.url }}/assets/images/photos/lab4.jpg" />
+                        </li>
+                        <li>
+                            <img src="{{ site.url }}/assets/images/photos/lab5.jpg" />
+                        </li>
+                        <li>
+                            <img src="{{ site.url }}/assets/images/photos/lab6.jpg" />
+                        </li>
+                        <li>
+                            <img src="{{ site.url }}/assets/images/photos/lab7.jpg" />
+                        </li>
+                        <li>
+                            <img src="{{ site.url }}/assets/images/photos/lab8.jpg" />
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+            <div class="half">
+
+                <h4 id="latest-blogs">Latest News
+                    <small><a class="green" href="{{ site.url }}/news/">See All</a>
+                    </small>
+                </h4>
+
+                <!-- slideshow blog list for tablet/desktop -->
+                <div class="posts hide-on-mobile flexslider">
+                    <ul class="slides">
+                        {% for post in site.posts limit:4 %}
+                        <li>
+                            <h3><a href="{{ post.url }}">{{ post.title }}</a>
+                            </h3>
+                            <h4>{{ post.date | date: "%B %d, %Y" }}</h4>
+                            {{ post.excerpt | strip_html | truncatewords: 50 }}
+                            <a href="{{ site.url }}{{ post.url }}">Continue Reading &raquo;</a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                    <div class="post-nav"></div>
+                </div>
+
+
+                <!--  blog list for mobile only -->
+                <div class="posts hide-on-desktop hide-on-tablet">
+                    <ul id="blog-roll">
+                        {% for post in site.posts limit:4 %}
+                        <li>
+                            <p><a class="green" href="{{ post.url }}">{{ post.title }}</a>
+                                <span>{{ post.date | date_to_string }}</span>
+                            </p>
+                            <!--	{{ post.excerpt }} -->
+                            <!--	<a href="{{ post.url }}">Continue Reading &raquo;</a>-->
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+
+        <br style="clear:both" />
+
+    </div>
+    <!--end .main-->
+    <br style="clear:both" />

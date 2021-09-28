@@ -1,0 +1,25 @@
+---
+layout: bio_index
+title:  "People"
+body_class: people
+type: group
+extra_js: /assets/js/bioindex.js
+extra_css: /assets/css/bioindex.css
+---
+
+{% assign word_number = 30 %}
+{% assign people = site.pages | sort: 'last_name' %}
+{% for person in people %}
+  {% comment %}Dennis gets special treatment{% endcomment %}
+  {% if person.first_name contains "Dennis" and person.last_name contains "Wall" %}
+    {% include bio_div.html %} 
+  {% endif %}
+{% endfor %} 
+{% for person in people %}
+  {% if person.layout == "bio" %}
+    {% unless person.type contains 'group' or person.last_name contains "Wall" %}
+      {% include bio_div.html %}
+    {% endunless %}
+  {% endif %}
+{% endfor %}
+

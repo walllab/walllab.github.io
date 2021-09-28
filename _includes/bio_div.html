@@ -1,0 +1,19 @@
+
+{% capture v %} {{ person.content | number_of_words | minus: 30  }} {% endcapture %}
+<div class="bio" id="{{ person.first_name | downcase }}_{{ person.last_name}}" data-firstname="{{ person.first_name }}" data-lastname="{{ person.last_name }}" data-order="{{ person.order }}">
+  <a href="{{person.url | remove_first: "/index.html" }}" >
+    <span class="circle" style="background: url({{ site.url }}/assets/images/bios/{{ person.picture }}); display:block; height:230px; width:230px;">
+    </span>
+    <h3>{{person.first_name}} {{ person.last_name }}</h3>
+    <h4 class="position-text">{{person.position}}</h4>
+    </a>
+    <div class="short-bio hidden-content">
+    <span ><p>
+      {{ person.content | markdownify | truncatewords: word_number | strip_html }}
+      {% unless v contains '-' %}
+      <a class="readmore" href="{{ site.url }}{{person.url | remove_first: "/index.html"}}">Read more</a>
+      {% else %}
+      {% endunless %}
+    </p></span>
+  </div>
+</div>

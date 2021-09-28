@@ -1,0 +1,67 @@
+.hide {
+  display: none; }
+
+.contact-row {
+  /* SET A HEIGHT TO THE INPUT*/
+  /* SET A HEIGHT TO THE TEXTAREA*/
+  /* BUTTON SENDER */
+  /* BUTTON SENDER HOVER */ }
+  .contact-row p {
+    color: #7F8289;
+    margin-top: 10px; }
+  .contact-row form input,
+  .contact-row form textarea {
+    font-size: 13px;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    /*	border: 1px solid #C2C6CB;
+    	border-radius: 2px 2px 2px 2px;
+    	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05) inset;
+    	color: #55606E;
+    	*/
+    box-shadow: none;
+    resize: vertical;
+    font-size: 12px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    padding: 9px 10px 8px;
+    transition: all .3s ease-in-out;
+    width: 100%; }
+  .contact-row form input {
+    height: 40px;
+    resize: none; }
+  .contact-row form textarea {
+    height: 150px;
+    padding-top: 8px; }
+  .contact-row form .submit {
+    text-shadow: none;
+    color: #FFF;
+    height: 40px;
+    width: 150px;
+    border-radius: 2px;
+    letter-spacing: 1px;
+    float: left;
+    display: block;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    /*
+    		    box-shadow: inset 0 1px 0 0 #df4848;
+    		    background-color: #df4848;
+    
+    */
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out; }
+  .contact-row form .submit:hover {
+    cursor: pointer; }
+
+input[type="submit"],
+input[type="submit"]:hover:not(:disabled),
+input[type="submit"]:active:not(:disabled) {
+  border: none;
+  box-shadow: none; }

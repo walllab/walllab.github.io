@@ -1,0 +1,286 @@
+@import "bourbon/bourbon";
+
+/* COLORS */
+
+
+$pink:#ec297b;
+$yellow:#fcb400;
+$orange:#f16522;
+$red:#ba2722;
+$magenta:#da3a35;
+$violet:#4a46aa;
+$blue:#2a91a8;
+$light-blue:#078dd8;
+$green:#80b23c;
+$brown:#A0522D;
+
+
+
+
+$grey:#444;
+$light-grey:#868a8d;
+$gainsboro: #f0f0f0;
+$snow:#fbfbfc; // features on the front page
+
+$border-color:rgba(0, 0, 0, 0.05);
+
+
+
+header{
+	background:white;
+}
+
+body{
+	background: white;
+}
+
+body.post{
+	//background:$gray;
+}
+
+
+a {
+    color: #0088cc;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #005580;
+    text-decoration: none;
+}
+
+
+
+footer {
+	background:white;
+	a:link,a:visited{color:#555}
+	a:hover{color:black;}
+	ul { padding-left:0;
+		li{list-style-type:none;}
+	}
+}
+footer.subfooter{
+	background:white;
+
+}
+
+header ul.horizontal{
+
+    a:link,a:visited {    font-size:14px;}
+    //a:hover {color:#fff}
+
+}
+
+// contact form
+.contact-row {
+	background:$gainsboro;
+	padding:30px 0;
+	height:100%;
+	form .submit{
+		box-shadow:none;
+		background:$light-blue;
+		color:white;
+		&:hover{background: lighten($light-blue, 10%);}
+	}
+}
+
+
+section {
+	// sections default with white background and 0 padding.
+	// to give padding to text, wrap it in paragraph tag
+	// background:white;
+	// p,h1,h2,h3,h4,h5,h6 {padding:20px}
+
+	header{ background:$blue;}
+}
+
+
+a#logo{
+	margin-top:15px;
+	height:50px;
+	width:50px;
+	background:url(../images/logo-dark.png);
+	opacity:.5;
+	display:block;
+//	text-align:-10000px;
+}
+a:hover#logo{opacity:.7}
+
+/*
+body.frontpage{
+	header{background:white}
+
+	header ul.horizontal{
+
+	    a:link,a:visited {color:#bbb}
+	    a:hover {color:#444}
+
+	}
+
+	a#logo{
+		background:url(../images/logo-dark.png);
+		opacity:.05;
+
+	}
+	a#logo:hover{opacity:.1}
+
+}
+*/
+
+
+
+
+
+/* front page */
+#top-pane {
+	background:$gainsboro;
+	//background:$khaki;
+	//background-image:no-repeat;
+}
+#second-pane{background:white}
+/*
+.mid-pane{
+	background:$snow;
+}
+*/
+.featured{
+	//background:$gainsboro;
+	border-bottom:	1px solid $border-color;
+	//border-top:		1px solid $border-color;
+}
+/* backgrounds */
+
+h1,h2,h3,h4,h5,h6,
+h1 a,h2 a,h3 a,h4 a,h5 a,h6 a {
+
+	color:black;
+}
+a h2 {color:$blue}
+a h2:hover{color:lighten($blue, 10%);}
+
+.people h1{color:$violet}
+.publications h1,.publications h2{color:$orange}
+.research h1{color:$yellow}
+.projects h1{color:$magenta}
+.contact h1{color:$light-blue}
+.news h1{color:$green}
+//.people h2{color:$violet}
+
+h1{
+    em {
+    	font-style:normal;
+        color:white;
+    }
+}
+#mission h1{color:#444}
+
+
+
+
+
+.social a {
+        display: block;
+        background: $light-blue;
+        margin: 1px 0;
+        padding: 10px 12px;
+        color: #fff;
+        @include transition( 0.2s );
+        &:hover {
+                text-decoration: none;
+                background: lighten($light-blue, 10%);
+        }
+}
+/** alternate style for separate bg for icon on left, e.g. <i></i><a>social</a>
+ * maybe <a><i><span></a> instead? (as inline-block) */
+.social i {
+	float: left;
+	background: darken($light-blue, 10%); //#59B1D3;
+	padding: 10px;
+	margin-right: 10px;
+	color: white;
+}
+
+
+
+
+
+
+
+
+@font-face {
+  font-family: 'walllab';
+  src: url('../font/walllab.eot?32229221');
+  src: url('../font/walllab.eot?32229221#iefix') format('embedded-opentype'),
+       url('../font/walllab.woff?32229221') format('woff'),
+       url('../font/walllab.ttf?32229221') format('truetype'),
+       url('../font/walllab.svg?32229221#walllab') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'walllab';
+    src: url('../font/walllab.svg?32229221#walllab') format('svg');
+  }
+}
+*/
+
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "walllab";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.icon-rss-squared:before { content: '\e801'; } /* '' */
+.icon-gplus:before { content: '\e80a'; } /* '' */
+.icon-right-open:before { content: '\e810'; } /* '' */
+.icon-angle-circled-up:before { content: '\e807'; } /* '' */
+.icon-angle-circled-down:before { content: '\e806'; } /* '' */
+.icon-beaker:before { content: '\e802'; } /* '' */
+.icon-stethoscope:before { content: '\e803'; } /* '' */
+.icon-facebook:before { content: '\e80e'; } /* '' */
+.icon-left-open:before { content: '\e80f'; } /* '' */
+.icon-twitter-squared:before { content: '\e80c'; } /* '' */
+.icon-users:before { content: '\e808'; } /* '' */
+.icon-edit:before { content: '\e805'; } /* '' */
+.icon-twitter:before { content: '\e80b'; } /* '' */
+.icon-linkedin:before { content: '\e809'; } /* '' */
+.icon-phone:before { content: '\e804'; } /* '' */
+.icon-doc:before { content: '\e800'; } /* '' */
+.icon-facebook-squared:before { content: '\e80d'; } /* '' */
+
+a.icon-twitter,a.icon-facebook-squared{
+	color:#999;
+	&:hover{
+		color:#555;
+	}
+}
+a.icon-twitter:before{padding-right:4px;}

@@ -1,0 +1,19 @@
+---
+layout: bio_index
+title:  "Alumni"
+body_class: people
+type: group
+---
+
+{% assign word_number = 60 %}
+{% assign people = site.pages | sort: 'last_name' %}
+{% for person in people %}
+  {% if person.group == "alumnus_new" %}
+      {% include bio_div_alt.html %}
+  {% endif %}
+{% endfor %}
+{% for person in people %}
+  {% if person.layout == "alumnus" and person.group != "alumnus_new" %}
+      {% include bio_div_alt.html %}
+  {% endif %}
+{% endfor %}

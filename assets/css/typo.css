@@ -1,0 +1,527 @@
+@charset "UTF-8";
+/* media query mixins */
+/* COLORS */
+header {
+  background: white; }
+
+body {
+  background: white; }
+
+a {
+  color: #0088cc;
+  text-decoration: none; }
+
+a:hover {
+  color: #005580;
+  text-decoration: none; }
+
+footer {
+  background: white; }
+  footer a:link, footer a:visited {
+    color: #555; }
+  footer a:hover {
+    color: black; }
+  footer ul {
+    padding-left: 0; }
+    footer ul li {
+      list-style-type: none; }
+
+footer.subfooter {
+  background: white; }
+
+header ul.horizontal a:link, header ul.horizontal a:visited {
+  font-size: 14px; }
+
+.contact-row {
+  background: #f0f0f0;
+  padding: 30px 0;
+  height: 100%; }
+  .contact-row form .submit {
+    box-shadow: none;
+    background: #078dd8;
+    color: white; }
+    .contact-row form .submit:hover {
+      background: #1aa8f8; }
+
+section header {
+  background: #2a91a8; }
+
+a#logo {
+  margin-top: 15px;
+  height: 50px;
+  width: 50px;
+  background: url(../images/logo-dark.png);
+  opacity: .5;
+  display: block; }
+
+a:hover#logo {
+  opacity: .7; }
+
+/*
+body.frontpage{
+	header{background:white}
+
+	header ul.horizontal{
+
+	    a:link,a:visited {color:#bbb}
+	    a:hover {color:#444}
+
+	}
+
+	a#logo{
+		background:url(../images/logo-dark.png);
+		opacity:.05;
+
+	}
+	a#logo:hover{opacity:.1}
+
+}
+*/
+/* front page */
+#top-pane {
+  background: #f0f0f0; }
+
+#second-pane {
+  background: white; }
+
+/*
+.mid-pane{
+	background:$snow;
+}
+*/
+.featured {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05); }
+
+/* backgrounds */
+h1, h2, h3, h4, h5, h6,
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  color: black; }
+
+a h2 {
+  color: #2a91a8; }
+
+a h2:hover {
+  color: #38b2cd; }
+
+.people h1 {
+  color: #4a46aa; }
+
+.publications h1, .publications h2 {
+  color: #f16522; }
+
+.research h1 {
+  color: #fcb400; }
+
+.projects h1 {
+  color: #da3a35; }
+
+.contact h1 {
+  color: #078dd8; }
+
+.news h1 {
+  color: #80b23c; }
+
+h1 em {
+  font-style: normal;
+  color: white; }
+
+#mission h1 {
+  color: #444; }
+
+.social a {
+  display: block;
+  background: #078dd8;
+  margin: 1px 0;
+  padding: 10px 12px;
+  color: #fff;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  transition: 0.2s; }
+  .social a:hover {
+    text-decoration: none;
+    background: #1aa8f8; }
+
+/** alternate style for separate bg for icon on left, e.g. <i></i><a>social</a>
+ * maybe <a><i><span></a> instead? (as inline-block) */
+.social i {
+  float: left;
+  background: #056da7;
+  padding: 10px;
+  margin-right: 10px;
+  color: white; }
+
+@font-face {
+  font-family: 'walllab';
+  src: url("../font/walllab.eot?32229221");
+  src: url("../font/walllab.eot?32229221#iefix") format("embedded-opentype"), url("../font/walllab.woff?32229221") format("woff"), url("../font/walllab.ttf?32229221") format("truetype"), url("../font/walllab.svg?32229221#walllab") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'walllab';
+    src: url('../font/walllab.svg?32229221#walllab') format('svg');
+  }
+}
+*/
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "walllab";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */ }
+
+.icon-rss-squared:before {
+  content: '\e801'; }
+
+/* '' */
+.icon-gplus:before {
+  content: '\e80a'; }
+
+/* '' */
+.icon-right-open:before {
+  content: '\e810'; }
+
+/* '' */
+.icon-angle-circled-up:before {
+  content: '\e807'; }
+
+/* '' */
+.icon-angle-circled-down:before {
+  content: '\e806'; }
+
+/* '' */
+.icon-beaker:before {
+  content: '\e802'; }
+
+/* '' */
+.icon-stethoscope:before {
+  content: '\e803'; }
+
+/* '' */
+.icon-university:before {
+  content: '\e803'; }
+
+
+/* '' */
+.icon-facebook:before {
+  content: '\e80e'; }
+
+/* '' */
+.icon-left-open:before {
+  content: '\e80f'; }
+
+/* '' */
+.icon-twitter-squared:before {
+  content: '\e80c'; }
+
+/* '' */
+.icon-users:before {
+  content: '\e808'; }
+
+/* '' */
+.icon-edit:before {
+  content: '\e805'; }
+
+/* '' */
+.icon-twitter:before {
+  content: '\e80b'; }
+
+/* '' */
+.icon-linkedin:before {
+  content: '\e809'; }
+
+/* '' */
+.icon-phone:before {
+  content: '\e804'; }
+
+/* '' */
+.icon-doc:before {
+  content: '\e800'; }
+
+/* '' */
+.icon-facebook-squared:before {
+  content: '\e80d'; }
+
+/* '' */
+a.icon-twitter, a.icon-facebook-squared {
+  color: #999; }
+  a.icon-twitter:hover, a.icon-facebook-squared:hover {
+    color: #555; }
+
+a.icon-twitter:before {
+  padding-right: 4px; }
+
+/* =============================================================
+    TYPOGRAPHY
+    Sets font styles for entire site.
+ * ============================================================= */
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  color: #555;
+  font-size: 16px;
+  line-height: 26px;
+  background: #ffffff; }
+
+p {
+  margin-bottom: 1.5em; }
+
+footer .quarter, footer .third {
+  font-size: 16px;
+  line-height: 26px;
+  font-size: 14px; }
+
+footer .quarter:last-child {
+  text-align: right; }
+
+footer.subfooter p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 28px;
+  color: #868a8d; }
+  footer.subfooter p small {
+    float: right;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 28px; }
+  footer.subfooter p a:link, footer.subfooter p a:visited {
+    color: #80b23c; }
+
+/*  Colors  */
+/*  For alternate text colors */
+.text-muted {
+  color: #808080; }
+
+/*  Links
+ *  Hyperlink styling */
+a.orange {
+  color: #f16522; }
+  a.orange:hover {
+    color: #f7a882; }
+
+a.violet {
+  color: #4a46aa; }
+  a.violet:hover {
+    color: #8b88ce; }
+
+a.blue {
+  color: #2a91a8; }
+  a.blue:hover {
+    color: #61c2d7; }
+
+a.light-blue {
+  color: #078dd8; }
+  a.light-blue:hover {
+    color: #4cbbf9; }
+
+a.red {
+  color: #ba2722; }
+  a.red:hover {
+    color: #da3a35; }
+
+a.green {
+  color: #80b23c; }
+  a.green:hover {
+    color: #b0d480; }
+
+a.yellow {
+  color: #fcb400; }
+  a.yellow:hover {
+    color: #ffd263; }
+
+a.magenta {
+  color: #da3a35; }
+  a.magenta:hover {
+    color: #ea8e8b; }
+
+a img {
+  border: none;
+  background: none; }
+
+/*  Prevents border/background on linked image hover.
+ *  Adds slight opacity. */
+a:hover img {
+  border: none;
+  background: none;
+  opacity: 0.8;
+  filter: alpha(opacity=80); }
+
+/*  Headings
+ *  h1 through h6 styling
+ *  Heading class lets you use one heading type for semantics
+ *  but style it as another heading type. */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300; }
+
+h1 {
+  font-size: 40px;
+  line-height: 48px; }
+  h1 small {
+    float: right;
+    font-size: 20px; }
+
+#mission h1 {
+  letter-spacing: -1px;
+  margin-bottom: 17px; }
+
+h2 {
+  font-size: 30px;
+  line-height: 38px;
+  margin-bottom: 10px; }
+
+.frontpage h2 {
+  text-align: left; }
+
+h4#latest-blogs,
+h4#latest-photos,
+.social {
+  margin: 30px 0; }
+
+h4 small {
+  float: right;
+  font-size: 16px; }
+
+h3 {
+  font-size: 22px;
+  line-height: 29px;
+  margin-bottom: 10px; }
+
+footer h3 {
+  color: #868a8d;
+  font-size: 13px;
+  text-transform: uppercase; }
+
+h4 {
+  font-size: 16px;
+  line-height: 25px; }
+
+h4 {
+  color: #bbb;
+  letter-spacing: 1px; }
+
+h5, h6 {
+  font-size: 14px; }
+
+h5 {
+  font-weight: 600; }
+  h5 a:link, h5 a:visited {
+    color: #555; }
+
+h6 {
+  color: #8d8c8c;
+  line-height: 20px; }
+
+aside {
+  /* sidebar: recent blog posts */ }
+  aside h4 {
+    margin-bottom: 1.1em; }
+  aside h5 {
+    margin-top: 0.2em; }
+  aside h6 {
+    margin-bottom: 1em; }
+
+.snippet {
+  margin: 20px 0 40px 0; }
+
+/*  Lines, Quotes and Emphasis */
+/*  Lines */
+hr {
+  margin: 2em auto;
+  border: 0;
+  border-top: .071428571em solid #e5e5e5;
+  border-bottom: .071428571em solid #ffffff; }
+
+/* =============================================================
+    CODE
+    Styling for code and preformatted text.
+ * ============================================================= */
+code, pre {
+  font-family: Menlo, Monaco, "Courier New", monospace;
+  font-size: .823529412em;
+  border-radius: .071428571em; }
+
+code {
+  color: #d14;
+  background-color: #f7f7f9;
+  padding: .235294118em; }
+
+pre {
+  display: block;
+  margin-bottom: 1.529411765em;
+  line-height: 1.538461538em;
+  background-color: #f5f5f5;
+  padding: .823529412em;
+  white-space: pre;
+  white-space: pre-wrap;
+  word-break: break-all; }
+
+pre code {
+  font-size: 1em;
+  padding: 0;
+  color: inherit;
+  background-color: transparent;
+  border: 0; }
+
+/*  Lists  */
+ul, ol {
+  margin-bottom: 1.5em; }
+
+ul ul, ul ol, ol ol, ol ul {
+  margin-bottom: 0; }
+
+ul {
+  list-style: disc;
+  padding-left: 20px; }
+
+ol {
+  list-style: decimal;
+  padding-left: 20px;
+  line-height: 22px; }
+
+ul#blog-roll {
+  list-style-type: none;
+  padding-left: 0; }
+
+.bio {
+  margin-bottom: 30px; }
+  .bio h1, .bio h2, .bio h3, .bio h4, .bio h5, .bio h6 {
+    text-align: center; }
+  .bio .circle {
+    -webkit-border-radius: 220px;
+    -moz-border-radius: 220px;
+    border-radius: 220px;
+    margin: 20px auto; }
+  .bio .circle img, .bio .rounded img {
+    opacity: 0;
+    vertical-align: bottom; }
+  .bio p {
+    font-size: 14px;
+    margin: 20px; }
+  .bio section {
+    text-align: center; }
+    .bio section a:link, .bio section a:visited {
+      background: none;
+      color: #ccc;
+      background: none;
+      font-size: 12px;
+      text-align: center; }

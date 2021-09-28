@@ -1,0 +1,5 @@
+---
+layout: post
+title: CBS features Stanford Autism Glass team
+---
+Earlier this week, CBS 5 aired a report on Dr. Wall and the Autism Google Glass team, along with one of the participating families of this year's Phase II study trial. With 1 in 68 children now diagnosed with autism, our understanding of ASD is proving to be more critical now than ever. The app developed by the team for Google Glass has shown to not only improve eye contact and social awareness in the children wearing and participating in the project, but the device is promising in its ability to have a more global impact on child healthcare. Dr. Wall expresses the importance of providing essential resources to families who, for socioeconimic or geographic reasons, have little to no access to tools they may need to help treat their child. The team is excited for the opportunity to continue educating the public of the research they do. To read the full article and view a clip of the broadcast, please visit their web site [where the story is featured](http://sanfrancisco.cbslocal.com/2016/05/11/google-glass-used-to-help-autistic-children-in-stanford-study/). 

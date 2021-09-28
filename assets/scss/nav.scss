@@ -1,0 +1,182 @@
+@import "mixins";
+@import "colors";
+
+// top header
+header#header-desktop {
+  position: fixed;
+  top: 0;
+  width: 100%;
+    z-index: 8000;
+    height:60px;
+
+  border-bottom:1px solid $border-color;
+
+    //background-color: rgba(255, 255, 255, 0.9);
+  nav {@include outer-container;}
+
+
+  ul.horizontal {
+     // @include clearfix();
+      font-size:17px;
+
+      //text-transform:uppercase;
+     // padding:15px 10px 10px 20px;
+     height:40px;
+      li {
+        display: inline;
+        list-style-type: none;
+        margin-left:20px;
+        float: right;
+        padding:15px 10px 10px 0;
+      }
+      li#logo-thing {float:left;padding:0;margin:-10px 0 0 0;}
+  }
+
+}
+
+
+
+
+header#header-mobile{
+  margin:-60px 0 0 0;
+  padding:0;
+  background:white;
+  ul{
+    padding-left:0
+  }
+
+
+  .nav-collapse {
+
+    a.icon-doc{background:lighten($green,25%);
+    &:hover{
+      color:#fff;
+      background:$green;
+      }
+    }
+    a.icon-beaker{background:lighten($yellow,25%);
+    &:hover{
+      color:#fff;
+      background:$yellow;
+      }
+    }
+    a.icon-users{background:lighten($blue,25%);
+    &:hover{
+      color:#fff;
+      background:$blue;
+      }
+    }
+    a.icon-edit{background:lighten($orange,25%);
+    &:hover{
+      color:#fff;
+      background:$orange;
+      }
+    }
+    a.icon-stethoscope{background:lighten($magenta,25%);
+    &:hover{
+      color:#fff;
+      background:$magenta;
+      }
+    }
+    a.icon-phone{
+      background:lighten($light-blue,25%);
+      &:hover{
+        color:#fff;
+        background:$light-blue;
+      }
+    }
+
+  }
+
+
+  h4 a{
+    text-align:center;
+    color:#333;
+    padding:20px;
+    width:100%;
+    font-weight:bold;
+    display:block;
+  } // logo wall lab text
+
+  a#toggle {
+    margin-top:3px;
+    color: white;
+    padding: 20px;
+    border: 0;
+    cursor: pointer;
+    background: #aaa;
+    text-align:center;
+  }
+
+//  a#toggle.active {
+//    background: #aaa;
+//  }
+
+}
+
+
+
+
+
+/*! responsive-nav.js 1.0.32 by @viljamis */
+
+.nav-collapse ul {
+  margin: 0;
+  width: 95%;
+  display: block;
+  list-style: none;
+}
+
+.nav-collapse li a{
+  width: 100%;
+  display: block;
+  padding:15px;
+  border-bottom:2px solid white;
+  text-align:center;
+  color:white;
+//  background:#eee;
+
+  &:hover{
+    color:#fff;
+    background:#bbb;
+  }
+}
+
+.js .nav-collapse {
+  clip: rect(0 0 0 0);
+  max-height: 0;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  zoom: 1;
+}
+
+.nav-collapse.opened {
+  max-height: 9999px;
+}
+
+.disable-pointer-events {
+  pointer-events: none !important;
+}
+
+.nav-toggle {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+@media screen and (min-width: 40em) {
+  .js .nav-collapse {
+    position: relative;
+  }
+  .js .nav-collapse.closed {
+    max-height: none;
+  }
+  .nav-toggle {
+    display: none;
+  }
+}

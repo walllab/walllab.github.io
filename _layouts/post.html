@@ -1,0 +1,35 @@
+---
+layout: default
+body_class: post
+---
+
+	<div class="row main">
+
+        <main>
+                <section>
+                        <p><a class="green" href="{{ site.url }}/news/">&laquo; back to news index</a></p>
+
+                        <h2>{{ page.title }}</h2>
+
+                        <p class="meta">{{ page.date | date: "%B %d, %Y" }}</p>
+
+                        {{ content }}
+
+                        <p  id="mission-share">
+
+                            <a href="http://twitter.com/share?url={{ site.url }}{{ page.url }}" class="icon-twitter float-right">tweet</a>
+
+                            <a href="http://www.facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" class="icon-facebook-squared float-right">share</a>
+
+                        </p>
+                        <br style="clear:both"/>
+                </section>
+                <p></p>
+        </main>
+
+
+	    <aside>
+    		{% include sidebar.html %}
+	    </aside>
+
+	</div>

@@ -1,0 +1,6 @@
+---
+title: Listserv Members
+published: true
+---
+{% for person in site.members %} {% unless person.type contains "group" %} 
+{{ person.email_prefix }}@{{ person.email_suffix | remove: " " | replace: ",", "."}} {% endunless %} {% endfor %}

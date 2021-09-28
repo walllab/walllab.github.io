@@ -1,0 +1,43 @@
+---
+layout: page
+title: Wall Lab News
+body_class: news
+---
+
+<h1> News</h1>
+<!-- This loops through the paginated posts -->
+<hr>
+<p></p>
+
+{% for post in paginator.posts %}
+  <h2><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
+
+  <h6>{{ post.date | date: "%B %d, %Y" }}</h6>
+
+  <div class="snippet">
+    {{ post.excerpt}}
+  </div>
+  {% if post.excerpt != post.content %}
+  <a href="{{ site.url }}{{post.url}}">Continue reading</a>
+  {% endif %}
+  <hr>
+{% endfor %}
+
+<!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+    {% if paginator.previous_page == 1 %}
+      <a href="{{ site.url }}/news/index.html">Previous</a>
+    {% else %}
+      <a href="{{ site.url }}/news/page{{ paginator.previous_page }}/index.html" class="previous">Previous</a>
+    {% endif %}
+  {% else %}
+    <span class="previous">Previous</span>
+  {% endif %}
+  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="{{ site.url }}/news/page{{ paginator.next_page }}/index.html" class="next">Next</a>
+  {% else %}
+    <span class="next ">Next</span>
+  {% endif %}
+</div>

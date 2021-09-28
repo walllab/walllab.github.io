@@ -1,0 +1,41 @@
+---
+layout: post
+title: Cosmos Talk at AMIA
+created: April 14, 2014
+---
+Dennis Wall described a new system for rapid economical genomic data analysis in the cloud at the recent American Medical Informatics Association <a href= "http://www.amia.org/jointsummits2014">Summit on Translational Bioinformatics</a>. Genomes analyzed in <3 hours for <$10 dollars. Read more here <!--more-->
+Harvard's Cloud-based System for Clinical NGS Analysis Offers Rapid, Low-Cost Analysis for Oncology
+April 11, 2014
+
+http://www.genomeweb.com/informatics/harvards-cloud-based-system-clinical-ngs-analysis-offers-rapid-low-cost-analysis
+
+Type size:-+
+Email
+Printer-friendly version
+RSS Feed
+By Uduak Grace Thomas
+Researchers at Harvard Medical School have developed a workflow management system called Cosmos, which they developed to run next-generation sequence data analysis and interpretation workflows in clinical settings quickly and cheaply on cloud infrastructure.
+
+Dennis Wall, now an associate professor in Stanford University's department of pediatrics and co-developer of Cosmos, presented the platform during this year's Summit on Translational Bioinformatics, which was held in San Francisco this week. Wall began working on Cosmos while he was at HMS, where he was an associate professor of pathology and director of the computational biology initiative at HMS. He co-developed Cosmos with Peter Tonellato, a lecturer in HMS' pathology department and a senior research scientist at HMS' Center for Biomedical Informatics.
+
+Wall continues to work on the system from Stanford with the HMS team. Since they developed it, he and his colleagues have used Cosmos to analyze and annotate variants associated with five cancer types — breast, renal, colorectal, lung, and melanoma — from samples collected at the Beth Israel Deaconess Medical Center. They've also tested Cosmos on Amazon's cloud infrastructure, taking advantage of different pricing options that the company offers for access to its cloud instances, as they try to find the most cost-effective method of using cloud resources for genomic analysis.
+
+"The big goal is to try to create a system that enables rapid genomic interpretation that matches the time frame for making clinical decisions," he told BioInform after his presentation. Currently, "the window for making some clinical decisions [about] drug treatment or therapy decisions … is within a period of weeks at most. … We want to make sure that we can interpret genomic information … within that same time frame [and] probably significantly shorter." That way, tumor boards can take the results of the genomic analysis into account when they discuss treatment options along with other "modalities and data, [such as] histopathology reports, observations by the oncologist," and so on.
+
+Furthermore, the team wanted to develop a system that was also cost-efficient "so that it can be used not just by people with the means and sufficient capital to run things on Amazon, for example, and pay premium prices, but also [by] community hospitals that [want] to do similar styles of genomic data interpretation for clinical decision support," he added.
+
+Cosmos manages, track, and allocates jobs performed by GenomeKey, a clinical genome interpretation toolkit put together by the HMS team using well-known open-source tools for aligning sequences, as well as calling and annotating clinically actionable variants. That list of tools includes things like the Burrows-Wheeler Aligner, the Genome Analysis Toolkit, Picard, Tophat, Cufflinks, and Blast, which have been put into pipelines for DNA and RNA sequence data analysis and interpretation, as well as for epigenomics and methylation data analysis.
+
+So far, Wall and his colleagues have tested Cosmos on Amazon's cloud computing infrastructure. When they first ran Cosmos on Amazon Web Services, it cost about $1,500 and took about a day to analyze a whole genome sequenced at 60x coverage. That was true if the researcher used Amazon's reserved instances option — a pricing model whereby customers pay a one-time fee for an allotment of compute space on the cloud for a length of time. But when the team used Amazon Spot Instances — an option whereby customers place bids on unused Amazon compute instances — the researchers were able to cut the cost of the analysis down to about $27 and to complete the analysis in about 10 hours.
+
+But their goal was to complete the analysis in under three hours for less than $100, according to Wall. To shave additional time and reduce the costs even further, the team implemented a newer version of the GATK software, which included a new variant-calling approach that addressed a part of the analysis that was previously a time and money sink.
+
+This particular change, which came out in version 3.0 of the GATK released last month, provided a method of calling variants that required less storage space than the approach used in earlier iterations of the software. Previously, in order to call variants jointly, the researchers had to collect all the BAM files and store them in a single location, an approach that becomes increasingly expensive as the number of genomes increases. "These are many gigabyte files that all have to be stuck together and stored simultaneously [and there is] a huge cost associated with that," Wall said. "If that were the model that we had to employ, it would not be scalable." Instead of collecting all the BAM files, GATK 3.0 makes it possible to create and collect temporary variant call files — called gVCFs — for each BAM and to use these for joint variant-calling instead of the BAMs, Wall explained. These gVCFs are much smaller in size and much cheaper to store, which is a "huge improvement on time [and] cost."
+
+The improvements to the analysis pipeline and the use of AWS spot instances made it possible for the team to reach both the time and cost objectives of its analysis. Wall shared the results of tests where the researchers compared the performance of the pre- and post-optimized versions of Cosmos running on AWS spot instances on whole genome data. He reported that while it previously took under 10 hours and cost about $27 to analyze a whole genome using the first version of Cosmos, the optimized version took about 3 hours and cost about $10. Analyzing five genomes with the earlier version of Cosmos took nearly 15 hours and cost about $48 per genome, but with the optimizations to the pipeline and the use of AWS spot instances, it's possible to analyze the same amount of data in under 10 hours at approximately $27 per genome. Finally, analyzing 10 whole genomes used to take over 25 hours and cost about $90 per genome, but with the improvements it now takes under 15 hours to analyze the same amount of data and costs about $47 per genome.
+
+Meanwhile, the team has begun testing Cosmos on Google's cloud infrastructure — Google launched the so-called Google Compute Engine (GCE) in the summer of 2012. Current testing on GCE shows that it takes about 12.5 hours to analyze a whole genome — 90 gigabytes worth of data — using a cluster comprised of one master compute node and five peer nodes. That’s still faster than running it on local infrastructure, according to the HMS researchers. When they tested Cosmos on their own compute cluster, it took just over a day to analyze a whole genome and about 5.5 hours to analyze a whole exome.
+
+"We are confident that [Cosmos] can run quickly [on GCE] within a time frame that’s similar to what we've seen on Amazon," Wall said. "We just need to understand a little bit more about how to scale and how to spool up resources in Google cloud appropriately and make sure that we have machine images that are appropriate and are readily cloned across the cloud when we need them."
+
+The developers plan to publish two papers describing Cosmos and providing details of the benchmark testing that they've done with the system. The first of these is currently in review with Bioinformatics. Cosmos isn't publicly available yet — the goal is to make it available via github when the Bioinformatics paper is published — but the team is willing to provide access to the tool for those interested in using it prior to its official launch, Wall said.

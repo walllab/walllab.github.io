@@ -1,0 +1,57 @@
+current directory: /Users/michaelning/wall_lab/wall.stanford.edu/vendor/bundle/ruby/2.3.0/gems/redcarpet-3.1.2/ext/redcarpet
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/bin/ruby -r ./siteconf20190322-22582-srp56q.rb extconf.rb
+creating Makefile
+
+current directory: /Users/michaelning/wall_lab/wall.stanford.edu/vendor/bundle/ruby/2.3.0/gems/redcarpet-3.1.2/ext/redcarpet
+make "DESTDIR=" clean
+
+current directory: /Users/michaelning/wall_lab/wall.stanford.edu/vendor/bundle/ruby/2.3.0/gems/redcarpet-3.1.2/ext/redcarpet
+make "DESTDIR="
+compiling autolink.c
+compiling buffer.c
+compiling houdini_href_e.c
+compiling houdini_html_e.c
+compiling html.c
+html.c:290:57: warning: passing 'const struct buf *' to parameter of type 'struct buf *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+                bufprintf(ob, "<h%d id=\"%s\">", level, header_anchor(text));
+                                                                      ^~~~
+html.c:268:33: note: passing argument to parameter 'text' here
+char *header_anchor(struct buf *text)
+                                ^
+html.c:638:51: warning: passing 'const struct buf *' to parameter of type 'struct buf *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+                bufprintf(ob, "<a href=\"#%s\">", header_anchor(text));
+                                                                ^~~~
+html.c:268:33: note: passing argument to parameter 'text' here
+char *header_anchor(struct buf *text)
+                                ^
+2 warnings generated.
+html.c:290:57: warning: passing 'const struct buf *' to parameter of type 'struct buf *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+                bufprintf(ob, "<h%d id=\"%s\">", level, header_anchor(text));
+                                                                      ^~~~
+html.c:268:33: note: passing argument to parameter 'text' here
+char *header_anchor(struct buf *text)
+                                ^
+html.c:638:51: warning: passing 'const struct buf *' to parameter of type 'struct buf *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+                bufprintf(ob, "<a href=\"#%s\">", header_anchor(text));
+                                                                ^~~~
+html.c:268:33: note: passing argument to parameter 'text' here
+char *header_anchor(struct buf *text)
+                                ^
+2 warnings generated.
+compiling html_smartypants.c
+compiling markdown.c
+compiling rc_markdown.c
+compiling rc_render.c
+compiling stack.c
+linking shared-object redcarpet.bundle
+ld: warning: directory not found for option '-L/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.Internal.sdk/usr/local/libressl/lib'
+ld: warning: directory not found for option '-L/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.Internal.sdk/usr/local/lib'
+ld: warning: text-based stub file /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/libruby.2.3.0.tbd and library file /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/libruby.2.3.0.dylib are out of sync. Falling back to library file for linking.
+ld: warning: directory not found for option '-L/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.Internal.sdk/usr/local/libressl/lib'
+ld: warning: directory not found for option '-L/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.Internal.sdk/usr/local/lib'
+ld: warning: text-based stub file /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/libruby.2.3.0.tbd and library file /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/libruby.2.3.0.dylib are out of sync. Falling back to library file for linking.
+ld: warning: The i386 architecture is deprecated for macOS (remove from the Xcode build setting: ARCHS)
+
+current directory: /Users/michaelning/wall_lab/wall.stanford.edu/vendor/bundle/ruby/2.3.0/gems/redcarpet-3.1.2/ext/redcarpet
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 redcarpet.bundle ./.gem.20190322-22582-yr4e7w

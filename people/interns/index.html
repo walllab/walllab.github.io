@@ -1,0 +1,24 @@
+---
+layout: bio_index
+title:  "Interns"
+body_class: interns
+type: group
+extra_js: /assets/js/bioindex.js
+extra_css: /assets/css/bioindex.css
+---
+
+{% assign word_number = 60 %}
+{% assign people = site.pages | sort: 'last_name' %}
+{% for person in people %}
+  {% if person.layout == "intern" %}
+    {% unless person.first_name == "Shiv" %}
+      {% include bio_div_alt.html %}
+    {% endunless %}
+  {% endif %}
+{% endfor %}
+{% for person in people %}
+  {% if person.first_name == "Shiv" %}
+    {% include bio_div_alt.html %}
+  {% endif %}
+{% endfor %}
+

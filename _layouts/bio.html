@@ -1,0 +1,51 @@
+---
+layout: default
+---
+<div class="row main ">
+	<div class="biopages">
+    <div style="display:block"><a href="{{ site.url }}/people">&lsaquo; Back</a></div>
+    <div class="bio">
+					{% if page.picture %}
+					<span class="circle" style="background: url({{ site.url }}/assets/images/bios/{{ page.picture }}); display:block; height:230px; width:230px;">
+					<img border="0" src="{{ site.url }}/assets/images/bios/dennis.png" />
+					</span>
+					{% endif %}
+
+			<p>
+		    {% if page.email_prefix && page.email_suffix %}
+					Email: <span class="e">{{ page.email_prefix }} / {{ page.email_suffix }} </span>
+				{% endif %}
+				</br>
+				{% if page.website %}
+				Web: <a href="{{page.website}}">{{page.website}}</a>
+				{% endif %}
+				</p>
+				<p>
+				{% if page.phone %}
+				Phone: {{page.phone}}
+				</br>
+				{% endif %}
+
+				{% if page.fax %}
+				Fax: {{ page.fax }}
+				{% endif %}
+
+
+		</div>
+
+
+ 	 <div class="two-thirds">
+ 		<section>
+      <h1>{{ page.first_name }} {{ page.last_name }}</h1>
+			<h6>{{ page.position }}</h6>
+			<hr>
+
+			{{ content }}
+
+    	</section>
+	 </div>
+
+
+
+	</div>
+</div>

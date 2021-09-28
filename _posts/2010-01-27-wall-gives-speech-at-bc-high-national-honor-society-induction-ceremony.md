@@ -1,0 +1,14 @@
+---
+layout: post
+title: Wall Gives Speech at BC High National Honor Society Induction Ceremony
+created: 1264618474
+---
+At my alma mater Boston College High School... Here is a brief excerpt from my speech
+
+"...I later learned that I had been accepted to Berkeley.  I would say the rest is history, but I’d be lying. My history is still being written. When I got to Berkeley, I had my unbridled focus on attaining that PhD, but I strapped on my helmet and dove head first into the abundant opportunities that I saw around me.  I don’t have time to tell you all of my stories. I am proud to say I have a lot and the list is growing. But I will tell you that I didn’t just matriculate unilaterally towards my PhD with a 4.0, I traveled for months throughout Southeast Asia, Melanesia, and Polynesia, drank kava with Fijian Chiefs, ate raw octopus on a remote beach in Samoa, surfed off the coast of New Caledonia, got bit by centipedes (not recommended), accidentally wound up in a brothel in Singapore, went night diving without scuba certification in Borneo, hiked through orangutan forests, climbed Mount Kinabalu, and learned to speak French fluently. I did all this with no money and while I was a PhD student.  Some of it was related to my thesis work, some of it wasn’t. All of it was epic and all of it helped to bring me to where I am now.
+
+BC High is a fantastic institution. It provided much of the instrumentation that I needed to succeed with my unbridled focus.  I am now a professor at Harvard Medical School working on understanding, diagnosing, and curing autism. A big peak that I am planning to climb with unbridled focus.  I can easily tell you now that I had no idea that I would be a professor at Harvard working in biomedical informatics of autism. I didn’t know when I was in high school, college, or grad school. The field I am in now didn’t even exist, and so I couldn’t have known.  But my experiences and the education both on the field and off, so to speak, gave me the edge to succeed and adapt.
+
+Here at BC High you all have already have ascended to the biggest peak.  I know you are talented young men, you are all multidisciplinary now, but I challenge you to become true renaissance men going forward. There are many more peaks. I challenge you to be more, do more, get out of the boundaries, and experience the insanity of the planet. There really are limitless opportunities out there. Read the books, get solid grades, set goals, but then live your life like you mean it. There will be bumps, sometimes massive ones, but if your experiences at BC High were anything like mine, you have many of the tools that you will need to smash those bumps down. 
+
+The next steps of your education are steps you choose, and in many cases steps that you will build yourselves.  Make sure you step up, and in the words of one of my heroes, famous big wave surfer, Laird Hamilton, Go Big."
