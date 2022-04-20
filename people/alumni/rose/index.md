@@ -1,5 +1,5 @@
 ---
-layout: bio
+layout: alumnus
 position: Administrative Associate
 first_name: Rose
 last_name: Vo

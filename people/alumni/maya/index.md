@@ -1,5 +1,5 @@
 ---
-layout: bio
+layout: alumnus
 position: Undergraduate Researcher
 first_name:  Maya
 last_name: Varma

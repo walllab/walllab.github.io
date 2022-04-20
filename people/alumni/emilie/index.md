@@ -1,5 +1,5 @@
 ---
-layout: bio
+layout: alumnus
 position: Research Data Analyst
 first_name: Emilie
 last_name: Leblanc

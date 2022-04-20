@@ -1,5 +1,5 @@
 ---
-layout: bio
+layout: alumnus
 position: Clinical Research Coordinator
 first_name: Yordan
 last_name: Penev
