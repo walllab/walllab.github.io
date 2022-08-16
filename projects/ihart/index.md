@@ -21,3 +21,12 @@ Our cloud-based computing and technology platform enables state-of-the-art compu
 
 Our initiative aims to characterize the different categories of autism and to provide a comprehensive scientific resource that will allow complex queries across a wide array of data including but not limited to: phenotypes, genomics, proteomics, metabolomics, measurements and imaging of brain activity, biomarker and diagnostic test results, treatment protocols and physician narratives.
 
+### Site
+
+http://www.ihart.org
+
+### Papers
+
+Ruzzo EK, Pérez-Cano L, Jung JY, Wang LK, Kashef-Haghighi D, Hartl C, Singh C, Xu J, Hoekstra JN, Leventhal O, Leppä VM, Gandal MJ, Paskov K, Stockham N, Polioudakis D, Lowe JK, Prober DA, Geschwind DH, Wall DP.
+<em>"Inherited and De Novo Genetic Risk for Autism Impacts Shared Networks."</em>
+Cell. 2019 Aug 8;178(4):850-866.e26. doi: [10.1016/j.cell.2019.07.015](https://doi.org/10.1016/j.cell.2019.07.015).
