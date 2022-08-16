@@ -23,7 +23,7 @@ Our initiative aims to characterize the different categories of autism and to pr
 
 ### Site
 
-http://www.ihart.org
+[http://www.ihart.org](http://ihart.org)
 
 ### Papers
 
