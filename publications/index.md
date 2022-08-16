@@ -8,6 +8,153 @@ published: true
 # Publications
 ---
 
+## 2022
+
+Chrisman BS, Paskov KM, He C, Jung JY, Stockham N, Washington PY, Wall DP.
+"A Method for Localizing Non-Reference Sequences to the Human Genome."
+Pac Symp Biocomput. 2022;27:313-324.
+PMID: 34890159; PMCID: PMC8730539.
+
+Chi NA, Washington P, Kline A, Husic A, Hou C, He C, Dunlap K, Wall DP.
+"Classifying Autism From Crowdsourced Semistructured Speech Recordings: Machine Learning Model Comparison Study."
+JMIR Pediatr Parent. 2022 Apr 14;5(2):e35406. doi: 10.2196/35406.
+
+Washington P, Kalantarian H, Kent J, Husic A, Kline A, Leblanc E, Hou C, Mutlu OC, Dunlap K, Penev Y, Varma M, Stockham NT, Chrisman B, Paskov K, Sun MW, Jung JY, Voss C, Haber N, Wall DP.
+"Improved Digital Therapy for Developmental Pediatrics Using Domain-Specific Artificial Intelligence: Machine Learning Study."
+JMIR Pediatr Parent. 2022 Apr 8;5(2):e26760. doi: 10.2196/26760.
+
+Chrisman B, He C, Jung JY, Stockham N, Paskov K, Washington P, Wall DP.
+"The human "contaminome": bacterial, viral, and computational contamination in whole genome sequences from 1000 families."
+Sci Rep. 2022 Jun 14;12(1):9863. doi: 10.1038/s41598-022-13269-z.
+
+Washington P, Chrisman B, Leblanc E, Dunlap K, Kline A, Mutlu C, Stockham N, Paskov K, Wall DP.
+"Crowd annotations can approximate clinical autism impressions from short home videos with privacy protections."
+Intell Based Med. 2022;6:100056. doi: 10.1016/j.ibmed.2022.100056. Epub 2022 Apr 8.
+
+Varma M, Washington P, Chrisman B, Kline A, Leblanc E, Paskov K, Stockham N, Jung JY, Sun MW, Wall DP.
+"Identification of Social Engagement Indicators Associated With Autism Spectrum Disorder Using a Game-Based Mobile App: Comparative Study of Gaze Fixation and Visual Scanning Methods."
+J Med Internet Res. 2022 Feb 15;24(2):e31830. doi: 10.2196/31830.
+PMID: 35166683; PMCID: PMC8889483.
+
+Stockham N, Washington P, Chrisman B, Paskov K, Jung JY, Wall DP.
+"Causal Modeling to Mitigate Selection Bias and Unmeasured Confounding in Internet-Based Epidemiology of COVID-19: Model Development and Validation."
+JMIR Public Health Surveill. 2022 Jul 21;8(7):e31306. doi: 10.2196/31306.
+
+Bobak CA, Muse M, Giffin KA, Williamson DA, Greene CS, Moore JH, Wall DP.
+"Human Intrigue: Meta-analysis approaches for big questions with big data while shaking up the peer review process."
+Pac Symp Biocomput. 2022;27:156-162.
+PMID: 34890145.
+
+## 2021
+
+Paskov K, Jung JY, Chrisman B, Stockham NT, Washington P, Varma M, Sun MW, Wall DP.
+"Estimating sequencing error rates using families."
+BioData Min. 2021 Apr 23;14(1):27. doi: 10.1186/s13040-021-00259-6.
+PMID: 33892748; PMCID: PMC8063364.
+
+
+Chrisman BS, Paskov K, Stockham N, Tabatabaei K, Jung JY, Washington P, Varma M, Sun MW, Maleki S, Wall DP.
+"Indels in SARS-CoV-2 occur at template-switching hotspots."
+BioData Min. 2021 Mar 20;14(1):20. doi: 10.1186/s13040-021-00251-0.
+PMID: 33743803; PMCID: PMC7980745.
+
+
+Chrisman BS, Paskov KM, Stockham N, Jung JY, Varma M, Washington PY, Tataru C, Iwai S, DeSantis TZ, David M, Wall DP.
+"Improved detection of disease-associated gut microbes using 16S sequence-based biomarkers."
+BMC Bioinformatics. 2021 Oct 19;22(1):509. doi: 10.1186/s12859-021-04427-7.
+PMID: 34666677; PMCID: PMC8527694.
+
+
+Bobak CA, Svoboda M, Giffin KA, Wall DP, Moore J.
+"Raising the stakeholders: Improving patient outcomes through interprofessional collaborations in AI for healthcare."
+Pac Symp Biocomput. 2021;26:351-355.
+PMID: 33691033.
+
+
+Washington P, Leblanc E, Dunlap K, Penev Y, Varma M, Jung JY, Chrisman B, Sun MW, Stockham N, Paskov KM, Kalantarian H, Voss C, Haber N, Wall DP.
+"Selection of trustworthy crowd workers for telemedical diagnosis of pediatric autism spectrum disorder."
+Pac Symp Biocomput. 2021;26:14-25.
+PMID: 33691000; PMCID: PMC7958981.
+
+
+Washington P, Tariq Q, Leblanc E, Chrisman B, Dunlap K, Kline A, Kalantarian H, Penev Y, Paskov K, Voss C, Stockham N, Varma M, Husic A, Kent J, Haber N, Winograd T, Wall DP.
+"Crowdsourced privacy-preserved feature tagging of short home videos for machine learning ASD detection."
+Sci Rep. 2021 Apr 7;11(1):7620. doi: 10.1038/s41598-021-87059-4.
+PMID: 33828118; PMCID: PMC8027393.
+
+
+Penev Y, Dunlap K, Husic A, Hou C, Washington P, Leblanc E, Kline A, Kent J, Ng-Thow-Hing A, Liu B, Harjadi C, Tsou M, Desai M, Wall DP.
+"A Mobile Game Platform for Improving Social Communication in Children with Autism: A Feasibility Study."
+Appl Clin Inform. 2021 Oct;12(5):1030-1040. doi: 10.1055/s-0041-1736626.
+PMID: 34788890; PMCID: PMC8598393.
+
+
+David MM, Tataru C, Daniels J, Schwartz J, Keating J, Hampton-Marcell J, Gottel N, Gilbert JA, Wall DP.
+"Children with Autism and Their Typically Developing Siblings Differ in Amplicon Sequence Variants and Predicted Functions of Stool-Associated Microbes."
+mSystems. 2021 Apr 6;6(2):e00193-20. doi: 10.1128/mSystems.00193-20.
+PMID: 33824194; PMCID: PMC8561662.
+
+
+Varma M, Paskov KM, Chrisman BS, Sun MW, Jung JY, Stockham NT, Washington PY, Wall DP.
+"A maximum flow-based network approach for identification of stable noncoding biomarkers associated with the multigenic neurological condition, autism."
+BioData Min. 2021 May 3;14(1):28. doi: 10.1186/s13040-021-00262-x.
+PMID: 33941233; PMCID: PMC8091705.
+
+## 2020
+
+Washington P, Paskov KM, Kalantarian H, Stockham N, Voss C, Kline A, Patnaik R, Chrisman B, Varma M, Tariq Q, Dunlap K, Schwartz J, Haber N, Wall DP.
+"Feature Selection and Dimension Reduction of Social Autism Data."
+Pac Symp Biocomput. 2020;25:707-718.
+PMID: 31797640; PMCID: PMC6927820.
+
+
+Abbas H, Garberson F, Liu-Mayo S, Glover E, Wall DP.
+"Multi-modular AI Approach to Streamline Autism Diagnosis in Young Children."
+Sci Rep. 2020 Mar 19;10(1):5014. doi: 10.1038/s41598-020-61213-w.
+PMID: 32193406; PMCID: PMC7081341.
+
+
+Washington P, Park N, Srivastava P, Voss C, Kline A, Varma M, Tariq Q, Kalantarian H, Schwartz J, Patnaik R, Chrisman B, Stockham N, Paskov K, Haber N, Wall DP.
+"Data-Driven Diagnostics and the Potential of Mobile Artificial Intelligence for Digital Therapeutic Phenotyping in Computational Psychiatry."
+Biol Psychiatry Cogn Neurosci Neuroimaging. 2020 Aug;5(8):759-769. doi: 10.1016/j.bpsc.2019.11.015.
+PMID: 32085921; PMCID: PMC7292741.
+
+
+Kalantarian H, Jedoui K, Dunlap K, Schwartz J, Washington P, Husic A, Tariq Q, Ning M, Kline A, Wall DP.
+"The Performance of Emotion Classifiers for Children With Parent-Reported Autism: Quantitative Feasibility Study."
+JMIR Ment Health. 2020 Apr 1;7(4):e13174. doi: 10.2196/13174.
+PMID: 32234701; PMCID: PMC7160704.
+
+
+Leblanc E, Washington P, Varma M, Dunlap K, Penev Y, Kline A, Wall DP.
+"Feature replacement methods enable reliable home video analysis for machine learning detection of autism."
+Sci Rep. 2020 Dec 4;10(1):21245. doi: 10.1038/s41598-020-76874-w.
+PMID: 33277527; PMCID: PMC7719177.
+
+
+McNeill EM, Warinner C, Alkins S, Taylor A, Heggeness H, DeLuca TF, Fulga TA, Wall DP, Griffith LC, Van Vactor D.
+"The conserved microRNA miR-34 regulates synaptogenesis via coordination of distinct mechanisms in presynaptic and postsynaptic cells."
+Nat Commun. 2020 Feb 27;11(1):1092. doi: 10.1038/s41467-020-14761-8.
+PMID: 32107390; PMCID: PMC7046720.
+
+
+Washington P, Leblanc E, Dunlap K, Penev Y, Kline A, Paskov K, Sun MW, Chrisman B, Stockham N, Varma M, Voss C, Haber N, Wall DP.
+"Precision Telemedicine through Crowdsourced Machine Learning: Testing Variability of Crowd Workers for Video-Based Autism Feature Recognition."
+J Pers Med. 2020 Aug 13;10(3):86. doi: 10.3390/jpm10030086.
+PMID: 32823538; PMCID: PMC7564950.
+
+
+Sun MW, Moretti S, Paskov KM, Stockham NT, Varma M, Chrisman BS, Washington PY, Jung JY, Wall DP.
+"Game theoretic centrality: a novel approach to prioritize disease candidate genes by combining biological networks with the Shapley value."
+BMC Bioinformatics. 2020 Aug 12;21(1):356. doi: 10.1186/s12859-020-03693-1.
+PMID: 32787845; PMCID: PMC7430867.
+
+
+Nag A, Haber N, Voss C, Tamura S, Daniels J, Ma J, Chiang B, Ramachandran S, Schwartz J, Winograd T, Feinstein C, Wall DP.
+"Toward Continuous Social Phenotyping: Analyzing Gaze Patterns in an Emotion Recognition Task for Children With Autism Through Wearable Smart Glasses."
+J Med Internet Res. 2020 Apr 22;22(4):e13810. doi: 10.2196/13810.
+PMID: 32319961; PMCID: PMC7203617.
+
 ## 2019
 
 Ruzzo, Elizabeth K., Laura Pérez-Cano, Jae-Yoon Jung, Lee-kai Wang, Dorna Kashef-Haghighi, Chris Hartl, Chanpreet Singh et al. "Inherited and De Novo Genetic Risk for Autism Impacts Shared Networks." Cell 178, no. 4 (2019): 850-866.
