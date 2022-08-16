@@ -61,7 +61,7 @@ published: true
 
     <h2>Current Projects</h2>
     <p>
-      Our lab is interested in the design and application of translational bioinformatics tools to help bring whole-genomic data to the point of clinical care. Our research projects are designed to complement and potentially supplant standard molecular diagnostics currently being used to characterize a patient’s autoimmune deficiencies and/or complex behavioral disorders, with the intent to have a faster and more robust system in place for real-time genomic diagnostics. <a class="yellow" href="{{ site.url }}/research">(Find out more)</a>
+      Our lab is interested in the design and application of translational bioinformatics tools to help bring whole-genomic data to the point of clinical care. Our research projects are designed to complement and potentially supplant standard molecular diagnostics currently being used to characterize a patient’s autoimmune deficiencies and/or complex behavioral disorders, with the intent to have a faster and more robust system in place for real-time genomic diagnostics. <a class="yellow" href="{{ site.url }}/projects">(Find out more)</a>
     </p>
   </div>
 </div>
