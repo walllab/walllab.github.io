@@ -3,8 +3,8 @@ layout: intern
 position: Research Assistant
 first_name: Kevin
 last_name: Tabatabaei
-email_prefix:
-email_suffix:
+email_prefix: kevintab
+email_suffix: stanford, edu
 website:
 phone:
 fax:
