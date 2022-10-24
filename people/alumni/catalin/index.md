@@ -1,5 +1,6 @@
 ---
-layout: bio
+layout: alumnus
+group: alumnus_new
 position: Autism Therapy Google Glass Collaborator
 first_name: Catalin
 last_name: Voss
