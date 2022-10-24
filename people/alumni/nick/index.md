@@ -1,5 +1,6 @@
 ---
-layout: bio
+layout: alumnus
+group: alumnus_new
 position: Assistant Professor, Stanford Graduate School of Education 
 first_name: Nick
 last_name: Haber
