@@ -12,7 +12,7 @@ picture: dennis.png
 published: true
 ---
 
-Dennis Wall is an Associate Professor of Pediatrics at the Stanford University School of Medicine, where his lab is developing novel approaches in systems biology to decipher the molecular pathology of autism spectrum disorder and related neurological disorders.
+Dennis Wall is a Professor of Pediatrics at the Stanford University School of Medicine, where his lab is developing novel approaches in systems biology to decipher the molecular pathology of autism spectrum disorder and related neurological disorders.
 
 Dr. Wall received his doctorate in Integrative Biology from the University of California, Berkeley, where he pioneered the use of fast evolving gene sequences to trace population-scale diversification across islands. Then, with a postdoctoral fellowship award from the National Science Foundation, he went on to Stanford University to address broader questions in systems biology and computational genomics, work that resulted in comprehensive functional models for both protein mutation and protein interaction.
 
