@@ -10,6 +10,34 @@ published: true
 
 <div class="row">
   <div class="quarter">
+    <a href="{{ site.url }}/projects/guess-what/">  <img style="border-radius: 50%; width: 100%" src="{{ site.url }}/assets/images/projects/guess-what.png" /></a>
+  </div>
+  <div class="three-quarters">
+    <a href="{{ site.url }}/projects/guess-what/"> <h2>Guess What?</h2></a>
+    <p>
+    This game is a research study for parents of children between the ages of 3 and 12 years. Families who participate in this game are helping researchers in the Wall Lab use machine learning and artificial intelligence to analyze behaviors expressed by children while interacting with family members via home video.
+    </p>
+  </div>
+</div>
+
+<hr>
+
+<div class="row">
+  <div class="quarter">
+    <a href="{{ site.url }}/projects/gapmap/">  <img style="border-radius: 50%; width: 100%" src="{{ site.url }}/assets/images/projects/gapmap.png" /></a>
+  </div>
+  <div class="three-quarters">
+    <a href="{{ site.url }}/projects/gapmap/"> <h2>GapMap</h2></a>
+    <p>
+    GapMap engages the community of families with autism to capture geographic, diagnostic, and resource usage information to yield a more complete and dynamically updated understanding of autism resource epidemiology.
+    </p>
+  </div>
+</div>
+
+<hr>
+
+<div class="row">
+  <div class="quarter">
     <a href="{{ site.url }}/projects/genome_algorithms/">  <img style="border-radius: 50%; width: 100%" src="{{ site.url }}/assets/images/dna.png" /></a>
   </div>
   <div class="three-quarters">
@@ -52,20 +80,6 @@ published: true
 
 <div class="row">
   <div class="quarter">
-    <a href="{{ site.url }}/projects/guess-what/">  <img style="border-radius: 50%; width: 100%" src="{{ site.url }}/assets/images/projects/guess-what.png" /></a>
-  </div>
-  <div class="three-quarters">
-    <a href="{{ site.url }}/projects/guess-what/"> <h2>Guess What?</h2></a>
-    <p>
-    This game is a research study for parents of children between the ages of 3 and 12 years. Families who participate in this game are helping researchers in the Wall Lab use machine learning and artificial intelligence to analyze behaviors expressed by children while interacting with family members via home video.
-    </p>
-  </div>
-</div>
-
-<hr>
-
-<div class="row">
-  <div class="quarter">
     <a href="{{ site.url }}/projects/autism-therapy-on-glass/">  <img style="border-radius: 50%; width: 100%" src="{{ site.url }}/assets/images/therapy-on-glass.png" /></a>
   </div>
   <div class="three-quarters">
@@ -86,20 +100,6 @@ published: true
     <a href="{{ site.url }}/projects/ihart/"><h2>iHart</h2></a>
     <p>
     Through a collaborative effort that includes researchers from Stanford, UCLA, the New York Genome Center, Cold Spring Harbor Laboratory, and the Simons Foundation, we have amassed a collection of whole genomes and phenotypic measurements on thousands of individuals from families with autism. This platform will help researchers explore connections across data and individuals to more precisely understand autism.
-    </p>
-  </div>
-</div>
-
-<hr>
-
-<div class="row">
-  <div class="quarter">
-    <a href="{{ site.url }}/projects/gapmap/">  <img style="border-radius: 50%; width: 100%" src="{{ site.url }}/assets/images/projects/gapmap.png" /></a>
-  </div>
-  <div class="three-quarters">
-    <a href="{{ site.url }}/projects/gapmap/"> <h2>GapMap</h2></a>
-    <p>
-    GapMap engages the community of families with autism to capture geographic, diagnostic, and resource usage information to yield a more complete and dynamically updated understanding of autism resource epidemiology.
     </p>
   </div>
 </div>
