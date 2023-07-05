@@ -3,8 +3,8 @@ layout: intern
 position: Pediatrics Intern
 first_name: Jade
 last_name: Yunseo
-email_prefix: 
-email_suffix: 
+email_prefix: jadelee051202
+email_suffix: gmail, com
 website:
 phone:
 fax:
