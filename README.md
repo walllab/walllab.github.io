@@ -5,7 +5,7 @@ wall-lab.stanford.edu
 * We're using Jekyll and Github pages to serve http://wall-lab.stanford.edu. 
 * Github allows editing directly from their interface. 
 * You can also opt to download the project to your computer to make edits and/or add functionality
- 
+
 ---
 
 # Quick Guides
