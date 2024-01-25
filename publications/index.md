@@ -8,7 +8,27 @@ published: true
 # Publications
 ---
 
+## 2023
+
+Paskov K, Chrisman B, Stockham N, Washington PY, Dunlap K, Jung JY, Wall DP. Identifying crossovers and shared genetic material in whole genome sequencing data from families. Genome Res. 2023 Oct;33(10):1747-1756. doi: 10.1101/gr.277172.122. Epub 2023 Oct 25. PMID: 37879861; PMCID: PMC10691535.
+
+Chrisman B, He C, Jung JY, Stockham N, Paskov K, Washington P, Petereit J, Wall DP. Localizing unmapped sequences with families to validate the Telomere-to-Telomere assembly and identify new hotspots for genetic diversity. Genome Res. 2023 Oct;33(10):1734-1746. doi: 10.1101/gr.277175.122. Epub 2023 Oct 25. PMID: 37879860; PMCID: PMC10691534.
+
+Banerjee A, Mutlu OC, Kline A, Surabhi S, Washington P, Wall DP. Training and Profiling a Pediatric Facial Expression Classifier for Children on Mobile Devices: Machine Learning Study. JMIR Form Res. 2023 Mar 21;7:e39917. doi: 10.2196/39917. PMID: 35962462; PMCID: PMC10131663.
+
+Liu BM, Paskov K, Kent J, McNealis M, Sutaria S, Dods O, Harjadi C, Stockham N, Ostrovsky A, Wall DP. Racial and Ethnic Disparities in Geographic Access to Autism Resources Across the US. JAMA Netw Open. 2023 Jan 3;6(1):e2251182. doi: 10.1001/jamanetworkopen.2022.51182. PMID: 36689227; PMCID: PMC9871799.
+
+Mutlu, O.C., Honarmand, M., Surabhi, S. and Wall, D.P., 2023. TempT: Temporal consistency for Test-time adaptation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 5916-5922). 
+
 ## 2022
+
+Chrisman BS, He C, Jung JY, Stockham N, Paskov K, Wall DP. Transmission dynamics of human herpesvirus 6A, 6B and 7 from whole genome sequences of families. Virol J. 2022 Dec 24;19(1):225. doi: 10.1186/s12985-022-01941-9. PMID: 36566197; PMCID: PMC9789512.
+
+Stockham N, Washington P, Chrisman B, Paskov K, Jung JY, Wall DP. Causal Modeling to Mitigate Selection Bias and Unmeasured Confounding in Internet-Based Epidemiology of COVID-19: Model Development and Validation. JMIR Public Health Surveill. 2022 Jul 21;8(7):e31306. doi: 10.2196/31306. PMID: 35605128; PMCID: PMC9307267.
+
+Lakkapragada A, Kline A, Mutlu O, Paskov K, Chrisman B, Stockham N, Washington P, Wall DP.
+The Classification of Abnormal Hand Movement to Aid in Autism Detection: Machine Learning Study. JMIR Biomed Eng 2022;7(1):e33771. DOI: 10.2196/33771
+[URL](https://biomedeng.jmir.org/2022/1/e33771)
 
 Chrisman BS, Paskov KM, He C, Jung JY, Stockham N, Washington PY, Wall DP.
 "A Method for Localizing Non-Reference Sequences to the Human Genome."
