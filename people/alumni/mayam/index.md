@@ -1,5 +1,6 @@
 ---
-layout: bio
+layout: alumnus
+group: alumnus_new
 position: Clinical Research Coordinator Associate
 first_name:  Maya
 last_name: McNealis

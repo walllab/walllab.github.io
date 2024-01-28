@@ -1,5 +1,6 @@
 ---
-layout: bio
+layout: alumnus
+group: alumnus_new
 position: Administrative Associate
 first_name: Marie
 last_name: Lujan

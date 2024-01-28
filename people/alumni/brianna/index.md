@@ -1,5 +1,6 @@
 ---
-layout: bio
+layout: alumnus
+group: alumnus_new
 position: Bioengineering PhD Student
 first_name: Brianna
 last_name: Chrisman

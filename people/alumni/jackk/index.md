@@ -1,5 +1,6 @@
 ---
-layout: bio
+layout: alumnus
+group: alumnus_new
 position: Full Stack Developer
 first_name: Jack
 last_name: Kent
