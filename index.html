@@ -182,6 +182,7 @@ published: true
 
         <div class="row">
 
+			<!--
             <div class="half">
 
                 <h4 id="latest-photos" class="hide-on-mobile">Photos</h4>
@@ -229,46 +230,47 @@ published: true
 
 
             </div>
+			-->
 
-            <div class="half">
+            <!--<div class="half">-->
 
-                <h4 id="latest-blogs">Latest News
-                    <small><a class="green" href="{{ site.url }}/news/">See All</a>
-                    </small>
-                </h4>
+			<h4 id="latest-blogs">Latest News
+				<small><a class="green" href="{{ site.url }}/news/">See All</a>
+				</small>
+			</h4>
 
-                <!-- slideshow blog list for tablet/desktop -->
-                <div class="posts hide-on-mobile flexslider">
-                    <ul class="slides">
-                        {% for post in site.posts limit:4 %}
-                        <li>
-                            <h3><a href="{{ post.url }}">{{ post.title }}</a>
-                            </h3>
-                            <h4>{{ post.date | date: "%B %d, %Y" }}</h4>
-                            {{ post.excerpt | strip_html | truncatewords: 50 }}
-                            <a href="{{ site.url }}{{ post.url }}">Continue Reading &raquo;</a>
-                        </li>
-                        {% endfor %}
-                    </ul>
-                    <div class="post-nav"></div>
-                </div>
+			<!-- slideshow blog list for tablet/desktop -->
+			<div class="posts hide-on-mobile flexslider">
+				<ul class="slides">
+					{% for post in site.posts limit:4 %}
+					<li>
+						<h3><a href="{{ post.url }}">{{ post.title }}</a>
+						</h3>
+						<h4>{{ post.date | date: "%B %d, %Y" }}</h4>
+						{{ post.excerpt | strip_html | truncatewords: 50 }}
+						<a href="{{ site.url }}{{ post.url }}">Continue Reading &raquo;</a>
+					</li>
+					{% endfor %}
+				</ul>
+				<div class="post-nav"></div>
+			</div>
 
 
-                <!--  blog list for mobile only -->
-                <div class="posts hide-on-desktop hide-on-tablet">
-                    <ul id="blog-roll">
-                        {% for post in site.posts limit:4 %}
-                        <li>
-                            <p><a class="green" href="{{ post.url }}">{{ post.title }}</a>
-                                <span>{{ post.date | date_to_string }}</span>
-                            </p>
-                            <!--	{{ post.excerpt }} -->
-                            <!--	<a href="{{ post.url }}">Continue Reading &raquo;</a>-->
-                        </li>
-                        {% endfor %}
-                    </ul>
-                </div>
-            </div>
+			<!--  blog list for mobile only -->
+			<div class="posts hide-on-desktop hide-on-tablet">
+				<ul id="blog-roll">
+					{% for post in site.posts limit:4 %}
+					<li>
+						<p><a class="green" href="{{ post.url }}">{{ post.title }}</a>
+							<span>{{ post.date | date_to_string }}</span>
+						</p>
+						<!--	{{ post.excerpt }} -->
+						<!--	<a href="{{ post.url }}">Continue Reading &raquo;</a>-->
+					</li>
+					{% endfor %}
+				</ul>
+			</div>
+            <!--</div>-->
 
 
 
