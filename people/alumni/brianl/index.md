@@ -1,5 +1,6 @@
 ---
-layout: intern
+layout: alumnus
+group: alumnus_new
 position: Pediatrics Intern
 first_name:  Brian
 last_name: Lin

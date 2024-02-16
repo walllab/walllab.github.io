@@ -1,5 +1,6 @@
 ---
-layout: intern
+layout: alumnus
+group: alumnus_new
 position: Graduate Student
 first_name:  Brianna
 last_name: Kozemzak

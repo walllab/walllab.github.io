@@ -1,5 +1,6 @@
 ---
-layout: intern
+layout: alumnus
+group: alumnus_new
 position: Research Collaborator
 first_name:  Anish
 last_name: Nag
