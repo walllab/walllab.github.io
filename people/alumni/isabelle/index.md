@@ -1,5 +1,6 @@
 ---
-layout: intern
+layout: alumnus
+group: alumnus_new
 position: Video Analyst
 first_name:  Isabelle
 last_name: Bankston

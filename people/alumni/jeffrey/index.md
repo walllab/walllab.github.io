@@ -1,5 +1,6 @@
 ---
-layout: intern
+layout: alumnus
+group: alumnus_new
 position: Machine Learning Intern
 first_name:  Jeffrey
 last_name: Ma

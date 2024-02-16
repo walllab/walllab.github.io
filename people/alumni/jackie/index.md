@@ -1,5 +1,6 @@
 ---
-layout: intern
+layout: alumnus
+group: alumnus_new
 position: Research Intern
 first_name:  Jackie
 last_name: Stahl
