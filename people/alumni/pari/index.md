@@ -1,5 +1,6 @@
 ---
-layout: intern
+layout: alumnus
+group: alumnus_new
 position: Research Assistant
 first_name:  Pari
 last_name: Srivastava

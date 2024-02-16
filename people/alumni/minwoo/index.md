@@ -1,6 +1,6 @@
 ---
-layout: intern
-<!-- group: alumnus_new -->
+layout: alumnus
+group: alumnus_new
 position: Bioinformatics Data Scientist
 first_name:  Min Woo
 last_name: Sun
