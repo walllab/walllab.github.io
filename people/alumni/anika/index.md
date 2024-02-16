@@ -1,6 +1,6 @@
 ---
-layout: intern
-<!-- group: alumnus_new -->
+layout: alumnus
+group: alumnus_new
 position: Bioinformatics Data Superstar
 first_name: Anika
 last_name: Gupta
