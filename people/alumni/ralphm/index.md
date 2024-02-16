@@ -1,5 +1,6 @@
 ---
-layout: intern
+layout: alumnus
+group: alumnus_new
 position: Undergraduate Student
 first_name: Ralph
 last_name: Ma

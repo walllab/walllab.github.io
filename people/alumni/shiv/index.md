@@ -1,5 +1,6 @@
 ---
-layout: intern
+layout: alumnus
+group: alumnus_new
 position: Research Intern
 first_name:  Shiv
 last_name: Ansal

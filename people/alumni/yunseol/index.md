@@ -1,5 +1,6 @@
 ---
-layout: intern
+layout: alumnus
+group: alumnus_new
 position: Pediatrics Intern
 first_name: Yunseo
 last_name: Lee
