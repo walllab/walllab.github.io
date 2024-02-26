@@ -13,11 +13,36 @@ published: true
     The Wall Lab at Stanford is committed to developing AI-enhanced and data backed games that can improve early detection and intervention options for complex conditions that originate in childhood and perpetuate through the life course, including autism and related developmental delays.
     </p>
 	<a href="{{ site.url }}/projects/guess-what/"><h3>Guess What?</h3></a>
-	<a href="{{ site.url }}/projects/autism-therapy-on-glass/"><h4>Autism Therapy on Glass</h4></a>
+	<a href="{{ site.url }}/projects/autism-therapy-on-glass/"><h3>Autism Therapy on Glass</h3></a>
 </div>
 
 <hr>
+<div class="row">
+	<h2>Crowd Science</h2>
+    <p>
+    </p>
+	<a href="{{ site.url }}/projects/gapmap/"> <h3>GapMap</h3></a>
+	<h3>Collaboration with University of Hawaii’s <a href="https://hawaiidigitalhealthlab.com/">Digital Health Lab</a></h3>
+</div>
 
+<hr>
+<div class="row">
+	<h2>AI Model Development</h2>
+    <p>
+    </p>
+</div>
+
+<hr>
+<div class="row">
+	<h2>Precision Health</h2>
+    <p>
+    </p>
+	<a href="{{ site.url }}/projects/genome_algorithms/"><h3>Genomic Algorithms for Identifying Autism</h3></a>
+	<a href="{{ site.url }}/projects/ssse/"><h3>Systematic Sex-Biased Sequencing Errors</h3></a>
+</div>
+
+<!--
+<hr>
 <div class="row">
   <div class="quarter">
     <a href="{{ site.url }}/projects/guess-what/">  <img style="border-radius: 50%; width: 100%" src="{{ site.url }}/assets/images/projects/guess-what.png" /></a>
@@ -31,7 +56,6 @@ published: true
 </div>
 
 <hr>
-
 <div class="row">
   <div class="quarter">
     <a href="{{ site.url }}/projects/gapmap/">  <img style="border-radius: 50%; width: 100%" src="{{ site.url }}/assets/images/projects/gapmap.png" /></a>
@@ -45,7 +69,6 @@ published: true
 </div>
 
 <hr>
-
 <div class="row">
   <div class="quarter">
     <a href="{{ site.url }}/projects/genome_algorithms/">  <img style="border-radius: 50%; width: 100%" src="{{ site.url }}/assets/images/dna.png" /></a>
@@ -59,7 +82,6 @@ published: true
 </div>
 
 <hr>
-
 <div class="row">
   <div class="quarter">
     <a href="{{ site.url }}/projects/ssse/">  <img style="border-radius: 50%; width: 100%" src="{{ site.url }}/assets/images/ngs.png" /></a>
@@ -73,7 +95,6 @@ published: true
 </div>
 
 <hr>
-
 <div class="row">
   <div class="quarter">
     <a href="{{ site.url }}/projects/microbiome-autism/"><img style="border-radius: 50%; width: 100%" src="{{ site.url }}/assets/images/projects/microbiome.png" /></a>
@@ -87,7 +108,6 @@ published: true
 </div>
 
 <hr>
-
 <div class="row">
   <div class="quarter">
     <a href="{{ site.url }}/projects/autism-therapy-on-glass/">  <img style="border-radius: 50%; width: 100%" src="{{ site.url }}/assets/images/therapy-on-glass.png" /></a>
@@ -101,7 +121,6 @@ published: true
 </div>
 
 <hr>
-
 <div class="row">
   <div class="quarter">
     <a href="{{ site.url }}/projects/ihart/">  <img style="border-radius: 50%; width: 100%" src="{{ site.url }}/assets/images/projects/ihart.png" /></a>
@@ -115,88 +134,6 @@ published: true
 </div>
 
 <hr>
-
-<!--
-<div class="row">
-  <div class="quarter">
-      <a href="{{ site.url }}/projects/6000exomes/"><img style="border-radius: 50%; width: 100%" src="{{ site.url }}/assets/images/ngs.png" /></a>
-  </div>
-  <div class="three-quarters">
-
-    <a href="{{ site.url }}/projects/6000exomes/"><h2>NGS Large-Scale Variant Detection in Autism</h2></a>
-    <p>
-      This is a large-scale genomics analysis of next-generation sequencing (NGS) datasets from autism case-control and family data.
-    </p>
-  </div>
-</div>
-
-<hr> -->
-
-<!--
-<div class="row">
-  <div class="quarter">
-      <a href="{{ site.url }}/projects/machinelearning/"><img style="border-radius: 50%; width: 100%" src="{{ site.url }}/assets/images/machinelearning.png" /></a>
-  </div>
-  <div class="three-quarters">
-
-    <a href="{{ site.url }}/projects/machinelearning/"><h2>Machine Learning Diagnostic Classifiers</h2></a>
-    <p>
-      We develop machine learning classifiers aimed at diagnosing ASD and related conditions, using simpler criteria than gold-standard methods with the hope of getting children diagnosed sooner.
-    </p>
-  </div>
-</div>
-
-<hr> -->
-
-<!--
-<div class="row">
-  <div class="quarter">
-    <a href="{{ site.url }}/projects/wearablepsychiatry/">  <img style="border-radius: 50%; width: 100%" src="{{ site.url }}/assets/images/projects/wearablepsychiatry.jpeg" /></a>
-  </div>
-  <div class="three-quarters">
-
-    <a href="{{ site.url }}/projects/wearablepsychiatry/"> <h2>Wearable Psychiatry</h2></a>
-    <p>
-      Using wearables to detect and quantify bipolar disorder.
-    </p>
-  </div>
-</div>
-
-<hr> -->
-
-<!-- 
-
-<div class="row">
-  <div class="quarter">
-    <a href="{{ site.url }}/projects/connectome/">  <img style="border-radius: 50%; width: 100%" src="{{ site.url }}/assets/images/projects/connectome.png" /></a>
-  </div>
-  <div class="three-quarters">
-
-    <a href="{{ site.url }}/projects/connectome/"> <h2>Connectome</h2></a>
-    <p>
-A social network analysis of autism-focused research trends across the country starting in the year 2000.
-    </p>
-  </div>
-</div>
-
-<hr>
-
-
-<div class="row">
-  <div class="quarter">
-    <a href="{{ site.url }}/projects/sysmed/">  <img style="border-radius: 50%; width: 100%" src="{{ site.url }}/assets/images/sysmed.png" /></a>
-  </div>
-  <div class="three-quarters">
-
-    <a href="{{ site.url }}/projects/sysmed/"> <h2>SysMed</h2></a>
-    <p>
-SysMed is a research site devoted to the genetic causes of Autism Spectrum Disorder.
-    </p>
-  </div>
-</div>
-
-<hr> -->
-
 <div class="row">
   <div class="quarter">
       <a href="{{ site.url }}/projects/homevideoproject/"><img style="border-radius: 50%; width: 100%" src="{{ site.url }}/assets/images/homevideoproject.png" /></a>
@@ -209,84 +146,5 @@ This proof of concept project evaluated the feasibility of applying our machine 
     </p>
   </div>
 </div>
-
 <hr>
-
-<!--
-
-<div class="row">
-  <div class="quarter">
-    <a href="{{ site.url }}/projects/route66/">  <img style="border-radius: 50%; width: 100%" src="{{ site.url }}/assets/images/route-66.png" /></a>
-  </div>
-  <div class="three-quarters">
-
-  <a href="{{ site.url }}/projects/route66/">    <h2>“Route 66” to Autism</h2></a>
-    <h3>Identifying a common molecular signature in ASD gene expression</h3>
-    <p>
-    Integration of all gene expression experiments conducted on different types of tissue from autism cases and matched controls to determine if a unique ASD signature exists.
-    </p>
-  </div>
-</div>
-
-<hr>
-
-<div class="row">
-  <div class="quarter">
-      <a href="{{ site.url }}/projects/genehawk/"><img style="border-radius: 50%; width: 100%" src="{{ site.url }}/assets/images/genehawk.png" /></a>
-  </div>
-  <div class="three-quarters">
-
-  <a href="{{ site.url }}/projects/genehawk/">  <h2>Genehawk</h2></a>
-    <p>
-GeneHawk is a database of associations between genes and disorders found by data mining PubMed.
-    </p>
-  </div>
-</div>
-
-<hr>
-
-<div class="row">
-  <div class="quarter">
-      <a href="{{ site.url }}/projects/genotator/"><img style="border-radius: 50%; width: 100%" src="{{ site.url }}/assets/images/genotator.png" /></a>
-  </div>
-  <div class="three-quarters">
-
-    <a href="{{ site.url }}/projects/genotator/"><h2>Genotator</h2></a>
-    <p>
-      Genotator is a meta-query engine designed to provide high quality gene-disease associations based upon data from 11 highly reliable resources.
-    </p>
-  </div>
-</div>
-
-<hr>
-
-<div class="row">
-  <div class="quarter">
-      <a href="{{ site.url }}/projects/cosmos/"><img style="border-radius: 50%; width: 100%" src="{{ site.url }}/assets/images/cosmos.png" /></a>
-  </div>
-  <div class="three-quarters">
-
-  <a href="{{ site.url }}/projects/cosmos/">  <h2>COSMOS</h2></a>
-    <p>
-  COSMOS is a library to manage large-scale analysis workflows focusing on next-generation sequencing genomic data.
-    </p>
-  </div>
-</div>
-
-<hr>
-
-<div class="row">
-  <div class="quarter">
-      <a href="{{ site.url }}/projects/roundup/"><img style="border-radius: 50%; width: 100%" src="{{ site.url }}/assets/images/roundup.png" /></a>
-  </div>
-  <div class="three-quarters">
-
-  <a href="{{ site.url }}/projects/roundup/">  <h2>Roundup</h2></a>
-    <p>
-    Roundup is a large-scale orthology database. The orthologs are computed using the Reciprocal Smallest Distance (RSD) algorithm.
-    </p>
-  </div>
-</div>
-
-<hr> -->
-
+-->
