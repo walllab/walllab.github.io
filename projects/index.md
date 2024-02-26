@@ -38,12 +38,12 @@ published: true
 		<h2>Precision Health</h2>
 		<p>
 		</p>
-		<a href="{{ site.url }}/projects/genome_algorithms/"><h3>Genomic Algorithms for Identifying Autism</h3></a>
-		<a href="{{ site.url }}/projects/ssse/"><h3>Systematic Sex-Biased Sequencing Errors</h3></a>
+		<a href="{{ site.url }}/projects/genome_algorithms/"><h2>Genomic Algorithms for Identifying Autism</h2></a>
+		<a href="{{ site.url }}/projects/ssse/"><h2>Systematic Sex-Biased Sequencing Errors</h2></a>
 	</div>
 </div>
 
-<!--
+
 <hr>
 <div class="row">
   <div class="quarter">
@@ -57,6 +57,7 @@ published: true
   </div>
 </div>
 
+<!--
 <hr>
 <div class="row">
   <div class="quarter">
