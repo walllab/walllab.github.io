@@ -8,42 +8,40 @@ published: true
 # Projects
 <hr>
 <div class="row">
-	<h2>Gamified Data Collection & Digital Intervention</h2>
+	<h1>Gamified Data Collection & Digital Intervention</h1>
     <p>
     The Wall Lab at Stanford is committed to developing AI-enhanced and data backed games that can improve early detection and intervention options for complex conditions that originate in childhood and perpetuate through the life course, including autism and related developmental delays.
     </p>
-	<a href="{{ site.url }}/projects/guess-what/"><h3>Guess What?</h3></a>
-	<a href="{{ site.url }}/projects/autism-therapy-on-glass/"><h3>Autism Therapy on Glass</h3></a>
+	<a href="{{ site.url }}/projects/guess-what/"><h2>Guess What?</h2></a>
+	<a href="{{ site.url }}/projects/autism-therapy-on-glass/"><h2>Autism Therapy on Glass</h2></a>
 </div>
 
 <hr>
 <div class="row">
-	<h2>Crowd Science</h2>
+	<h1>Crowd Science</h1>
     <p>
     </p>
-	<a href="{{ site.url }}/projects/gapmap/"> <h3>GapMap</h3></a>
-	<h3>Collaboration with University of Hawaii’s <a href="https://hawaiidigitalhealthlab.com/">Digital Health Lab</a></h3>
+	<a href="{{ site.url }}/projects/gapmap/"> <h2>GapMap</h2></a>
+	<h2>Collaboration with University of Hawaii’s <a href="https://hawaiidigitalhealthlab.com/">Digital Health Lab</a></h2>
 </div>
 
 <hr>
 <div class="row">
-	<h2>AI Model Development</h2>
+	<h1>AI Model Development</h1>
     <p>
     </p>
 </div>
 
 <hr>
 <div class="row">
-	<div class="three-quarters">
-		<h2>Precision Health</h2>
-		<p>
-		</p>
-		<a href="{{ site.url }}/projects/genome_algorithms/"><h2>Genomic Algorithms for Identifying Autism</h2></a>
-		<a href="{{ site.url }}/projects/ssse/"><h2>Systematic Sex-Biased Sequencing Errors</h2></a>
-	</div>
+	<h1>Precision Health</h1>
+	<p>
+	</p>
+	<a href="{{ site.url }}/projects/genome_algorithms/"><h2>Genomic Algorithms for Identifying Autism</h2></a>
+	<a href="{{ site.url }}/projects/ssse/"><h2>Systematic Sex-Biased Sequencing Errors</h2></a>
 </div>
 
-
+<!--
 <hr>
 <div class="row">
   <div class="quarter">
@@ -57,7 +55,6 @@ published: true
   </div>
 </div>
 
-<!--
 <hr>
 <div class="row">
   <div class="quarter">
