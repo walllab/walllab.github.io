@@ -34,11 +34,13 @@ published: true
 
 <hr>
 <div class="row">
-	<h2>Precision Health</h2>
-    <p>
-    </p>
-	<a href="{{ site.url }}/projects/genome_algorithms/"><h3>Genomic Algorithms for Identifying Autism</h3></a>
-	<a href="{{ site.url }}/projects/ssse/"><h3>Systematic Sex-Biased Sequencing Errors</h3></a>
+	<div class="three-quarters">
+		<h2>Precision Health</h2>
+		<p>
+		</p>
+		<a href="{{ site.url }}/projects/genome_algorithms/"><h3>Genomic Algorithms for Identifying Autism</h3></a>
+		<a href="{{ site.url }}/projects/ssse/"><h3>Systematic Sex-Biased Sequencing Errors</h3></a>
+	</div>
 </div>
 
 <!--
