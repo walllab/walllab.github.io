@@ -8,37 +8,45 @@ published: true
 # Projects
 <hr>
 <div class="row">
-	<h1>Gamified Data Collection & Digital Intervention</h1>
+	<h2>Gamified Data Collection & Digital Intervention</h2>
     <p>
     The Wall Lab at Stanford is committed to developing AI-enhanced and data backed games that can improve early detection and intervention options for complex conditions that originate in childhood and perpetuate through the life course, including autism and related developmental delays.
     </p>
-	<a href="{{ site.url }}/projects/guess-what/"><h2>Guess What?</h2></a>
-	<a href="{{ site.url }}/projects/autism-therapy-on-glass/"><h2>Autism Therapy on Glass</h2></a>
+	<ul>
+		<li><a href="{{ site.url }}/projects/guess-what/"><h2>Guess What?</h2></a></li>
+		<li><a href="{{ site.url }}/projects/autism-therapy-on-glass/"><h2>Autism Therapy on Glass</h2></a></li>
+	</ul>
 </div>
 
 <hr>
 <div class="row">
-	<h1>Crowd Science</h1>
+	<h2>Crowd Science</h2>
     <p>
     </p>
-	<a href="{{ site.url }}/projects/gapmap/"> <h2>GapMap</h2></a>
-	<h2>Collaboration with University of Hawaii’s <a href="https://hawaiidigitalhealthlab.com/">Digital Health Lab</a></h2>
+	<ul>
+		<li><a href="{{ site.url }}/projects/gapmap/"><h2>GapMap</h2></a></li>
+		<li><a href="https://hawaiidigitalhealthlab.com/"><h2>Collaboration with University of Hawaii’s Digital Health Lab</h2></a></li>
+	</ul>
 </div>
 
 <hr>
 <div class="row">
-	<h1>AI Model Development</h1>
+	<h2>AI Model Development</h2>
     <p>
     </p>
+	<ul>
+	</ul>
 </div>
 
 <hr>
 <div class="row">
-	<h1>Precision Health</h1>
+	<h2>Precision Health</h2>
 	<p>
 	</p>
-	<a href="{{ site.url }}/projects/genome_algorithms/"><h2>Genomic Algorithms for Identifying Autism</h2></a>
-	<a href="{{ site.url }}/projects/ssse/"><h2>Systematic Sex-Biased Sequencing Errors</h2></a>
+	<ul>
+		<li><a href="{{ site.url }}/projects/genome_algorithms/"><h2>Genomic Algorithms for Identifying Autism</h2></a></li>
+		<li><a href="{{ site.url }}/projects/ssse/"><h2>Systematic Sex-Biased Sequencing Errors</h2></a></li>
+	</ul>
 </div>
 
 <!--
