@@ -7,6 +7,16 @@ published: true
 
 # Projects
 <hr>
+<div class="row">
+	<h2>Gamified Data Collection & Digital Intervention</h2>
+    <p>
+    The Wall Lab at Stanford is committed to developing AI-enhanced and data backed games that can improve early detection and intervention options for complex conditions that originate in childhood and perpetuate through the life course, including autism and related developmental delays.
+    </p>
+	<a href="{{ site.url }}/projects/guess-what/"><h3>Guess What?</h3></a>
+	<a href="{{ site.url }}/projects/autism-therapy-on-glass/"><h4>Autism Therapy on Glass</h4></a>
+</div>
+
+<hr>
 
 <div class="row">
   <div class="quarter">
