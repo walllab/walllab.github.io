@@ -50,14 +50,14 @@ published: true
 			<p>
 			Limited data set size can compromise the generalizability and robustness of the AI models, particularly in health-critical fields like digital phenotyping that require minimal bias and optimal performance. Crowdsourcing enables one to tap into the collective wisdom and capabilities of a diverse group of individuals, fostering collaboration, and problem-solving on a global scale. It offers a flexible and scalable approach to addressing various challenges.
 			</p>
-		<li>
+		</li>
 
 		<li>
 			<h4>Temporal Adaptation</h4>
 			<p>
 			We introduce Temporal consistency for Test-time adaptation (TempT), a novel method for test-time adaptation on videos through the use of temporal coherence of predictions across sequential frames as a self-supervision signal. TempT is an approach with broad potential applications in computer vision tasks, including facial expression recognition (FER) in videos.
 			</p>
-		<li>
+		</li>
 	</ul>
 	
 </div>
