@@ -15,3 +15,6 @@ As the number of autism diagnoses has increased, we have no true handle on the s
 
 
 [GapMap Website](https://gapmap.stanford.edu/)
+
+Liu BM, Paskov K, Kent J, et al. Racial and Ethnic Disparities in Geographic Access to Autism Resources Across the US. JAMA Netw Open. 2023;6(1):e2251182. doi:10.1001/jamanetworkopen.2022.51182
+Ning M, Daniels J, Schwartz J, Dunlap K, Washington P, Kalantarian H, Du M, Wall D. Identification and Quantification of Gaps in Access to Autism Resources in the United States: An Infodemiological Study. J Med Internet Res 2019;21(7):e13094. URL: https://www.jmir.org/2019/7/e13094. DOI: 10.2196/13094

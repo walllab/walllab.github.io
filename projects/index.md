@@ -37,20 +37,28 @@ published: true
     </p>
 	
 	<h3>Overview on current research:</h3>
-	<h3>Ensemble Learning</h3>
-	<p>
-	Ensemble learning offers a versatile framework for leveraging the strengths of multiple models. Using ensemble learning approaches we can identify subgroups within the spectrum by clustering individuals based on their characteristics or response patterns, thereby enabling more personalized interventions or treatments.
-	</p>
+	<ul>
+		<li>
+			<h4>Ensemble Learning</h4>
+			<p>
+			Ensemble learning offers a versatile framework for leveraging the strengths of multiple models. Using ensemble learning approaches we can identify subgroups within the spectrum by clustering individuals based on their characteristics or response patterns, thereby enabling more personalized interventions or treatments.
+			</p>
+		</li>
 
-	<h3>Crowdsourcing for NT data</h3>
-	<p>
-	Limited data set size can compromise the generalizability and robustness of the AI models, particularly in health-critical fields like digital phenotyping that require minimal bias and optimal performance. Crowdsourcing enables one to tap into the collective wisdom and capabilities of a diverse group of individuals, fostering collaboration, and problem-solving on a global scale. It offers a flexible and scalable approach to addressing various challenges.
-	</p>
+		<li>
+			<h4>Crowdsourcing for NT data</h4>
+			<p>
+			Limited data set size can compromise the generalizability and robustness of the AI models, particularly in health-critical fields like digital phenotyping that require minimal bias and optimal performance. Crowdsourcing enables one to tap into the collective wisdom and capabilities of a diverse group of individuals, fostering collaboration, and problem-solving on a global scale. It offers a flexible and scalable approach to addressing various challenges.
+			</p>
+		<li>
 
-	<h3>Temporal Adaptation</h3>
-	<p>
-	We introduce Temporal consistency for Test-time adaptation (TempT), a novel method for test-time adaptation on videos through the use of temporal coherence of predictions across sequential frames as a self-supervision signal. TempT is an approach with broad potential applications in computer vision tasks, including facial expression recognition (FER) in videos.
-	</p>
+		<li>
+			<h4>Temporal Adaptation</h4>
+			<p>
+			We introduce Temporal consistency for Test-time adaptation (TempT), a novel method for test-time adaptation on videos through the use of temporal coherence of predictions across sequential frames as a self-supervision signal. TempT is an approach with broad potential applications in computer vision tasks, including facial expression recognition (FER) in videos.
+			</p>
+		<li>
+	</ul>
 	
 </div>
 

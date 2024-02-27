@@ -11,9 +11,7 @@ published: true
 ## Overview
 The Autism Glass Project is an interdisciplinary effort bringing together some of the brightest minds in psychiatry, behavioral science, human-computer interaction and artificial intelligence to create an assistive tool for facial emotion recognition. Based out of the Wall Lab in the Systems Medicine division of the Stanford School of Medicine Pediatrics department, the Autism Glass Project seeks to provide individuals with challenges navigating social cues with a clinically validated therapeutic device to aid in interpreting facial expressions. 
 
-The Autism Glass Project was founded by Stanford scholars and researchers Catalin Voss and Dr. Nick Haber, with a mission to leverage their expertise in computer science and machine learning for a cause close to their hearts: improving the lives of people with autism and others who experience difficulty with social functioning. Under the guidance of Principal Investigators and Stanford faculty Dr. Dennis Wall, Dr. Terry Winograd and Dr. Carl Feinstein, and with a generous donation of Google Glass units from Google, the Autism Glass Project founders have begun to realize their vision. 
-
-We are currently recruiting families in the Bay Area (and soon nationally) with children with autism aged 4-17 to participate in a collaborative design study testing the Autism Glass as a therapeutic device in the naturalistic environment of their homes, with the goal of designing the best possible tool for the true needs of individuals with autism and their families. If you are interested in participating in the study, please visit our [website](http://autismglass.stanford.edu) or email the project coordinators at autismglass@stanford.edu.
+Clinical Trial Results: Voss C, Schwartz J, Daniels J, et al. Effect of Wearable Digital Intervention for Improving Socialization in Children With Autism Spectrum Disorder: A Randomized Clinical Trial. JAMA Pediatr. 2019;173(5):446–454. doi:10.1001/jamapediatrics.2019.0285
 
 ### News
 * NY Times: [https://www.nytimes.com/2019/07/17/technology/google-glass-device-treat-autism.html?action=click&amp;module=Editors%20Picks&amp;pgtype=Homepage](https://www.nytimes.com/2019/07/17/technology/google-glass-device-treat-autism.html?action=click&amp;module=Editors%20Picks&amp;pgtype=Homepage)
@@ -48,7 +46,3 @@ Images below demonstrating the usage of the application:
 ![Autism Therapy on Glass Image #2]({{ site.url }}/assets/images/projects/autism-therapy-on-glass/2.png)
 
 ![Autism Therapy on Glass Image #3]({{ site.url }}/assets/images/projects/autism-therapy-on-glass/3.png)
-
-
-### Abstract
-[Abstract [pdf]](/docs/autism-therapy-on-glass_abstract.pdf)
