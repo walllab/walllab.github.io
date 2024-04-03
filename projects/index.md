@@ -69,7 +69,6 @@ published: true
 	</p>
 	<ul>
 		<li><a href="{{ site.url }}/projects/genome_algorithms/"><h2>Genomic Algorithms for Identifying Autism</h2></a></li>
-		<li><a href="{{ site.url }}/projects/ssse/"><h2>Systematic Sex-Biased Sequencing Errors</h2></a></li>
 	</ul>
 </div>
 
