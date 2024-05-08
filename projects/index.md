@@ -66,10 +66,38 @@ published: true
 <div class="row">
 	<h2>Precision Health</h2>
 	<p>
+	Our lab uses genetic data from families to identify the genes that are involved in autism spectrum disorder. To do this, we develop new computational methods that leverage familial relationships to identify autism risk regions.
 	</p>
-	<ul>
-		<li><a href="{{ site.url }}/projects/genome_algorithms/"><h2>Genomic Algorithms for Identifying Autism</h2></a></li>
-	</ul>
+		<h3>The genome-wide sibling-pair linkage test</h3>
+		<p>
+		We developed a hidden Markov model for resolving crossovers and shared genetic material (IBD) in WGS data from families. We then developed a genome-wide sibling pair linkage test which uses IBD across large numbers of families to identify autism risk regions. By working with sibling IBD, our method is able to detect genomic regions harboring risk variants, even if the risk variants themselves are not sequenced and do not exhibit linkage disequilibrium with their neighbors. Furthermore, our method can identify parent-of-origin effects which are known to play a role in neurodevelopmental processes. Using crowd-sourced microarray data from 132 autism families, our method identified two autism risk regions which we were able to validate with an independent dataset. We then used variant transmission patterns to demonstrate that alternative splicing in one of the regions likely plays a role in autism risk. This work provides a proof-of-concept, demonstrating that extending family-based linkage analysis into the era of next-generation sequencing has the potential to increase our understanding of genetic risk factors for complex disorders.
+		</p>
+		<h4>Publications:</h4>
+		<p>
+		Paskov K, Chrisman B, Stockham N, Washington PY, Dunlap K, Jung JY, Wall DP. Identifying crossovers and shared genetic material in whole genome sequencing data from families. Genome Research. 2023 Oct 1;33(10):1747-56.
+		</p>
+		
+		<h3>iHART</h3>
+		<p>
+		In collaboration with the Geschwind Lab and the Hartwell Foundation, we sequenced and analyzed 1,006 families with two or more children with autism. This dataset is an important resource for studying inherited genetic risk factors for autism.
+		</p>
+		<h4>Publications:</h4>
+		<p>
+		Ruzzo EK, Pérez-Cano L, Jung JY, Wang LK, Kashef-Haghighi D, Hartl C, Singh C, Xu J, Hoekstra JN, Leventhal O, Leppä VM. Inherited and de novo genetic risk for autism impacts shared networks. Cell. 2019 Aug 8;178(4):850-66.
+		</p>
+		
+		<h3>Shapley values</h3>
+		<p>
+		We have repurposed the Shapley value, a game theoretic approach to quantify the marginal contribution of a “player” (in this case, a single nucleotide polymorphism) to the “game outcome” (in this case, prediction of autism).
+		</p>
+		<h4>Publications:</h4>
+		<p>
+		Sun MW, Moretti S, Paskov KM, Stockham NT, Varma M, Chrisman BS, Washington PY, Jung JY, Wall DP. Game theoretic centrality: a novel approach to prioritize disease candidate genes by combining biological networks with the Shapley value. BMC bioinformatics. 2020 Dec;21:1-0.
+		
+		Sun MW, Gupta A, Varma M, Paskov KM, Jung JY, Stockham NT, Wall DP. Coalitional game theory facilitates identification of non-coding variants associated with autism. Biomedical Informatics Insights. 2019 Mar;11:1178222619832859.
+		
+		Gupta A, Sun MW, Paskov KM, Stockham NT, Jung JY, Wall DP. Coalitional game theory as a promising approach to identify candidate autism genes. InPACIFIC SYMPOSIUM ON BIOCOMPUTING 2018: Proceedings of the Pacific Symposium 2018 (pp. 436-447).
+		</p>
 </div>
 
 <!--
