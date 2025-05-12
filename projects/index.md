@@ -24,8 +24,9 @@ published: true
     <p>
     </p>
 	<ul>
+		<li><a href="https://hartwellkidsfirst.my.canva.site/kidsfirst"><h2>KidsFirst</h2></a></li>
 		<li><a href="{{ site.url }}/projects/gapmap/"><h2>GapMap</h2></a></li>
-		<li><a href="https://hawaiidigitalhealthlab.com/"><h2>Collaboration with University of Hawaii’s Digital Health Lab</h2></a></li>
+		<li><a href="https://techlab.ucsf.edu/research/"><h2>Collaboration with Dr. Peter Washington's Tech Lab</h2></a></li>
 	</ul>
 </div>
 
