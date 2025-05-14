@@ -24,7 +24,10 @@ published: true
     <p>
     </p>
 	<ul>
-		<li><a href="http://kidsfirst.stanford.edu/"><h2>KidsFirst</h2></a></li>
+		<li><a href="http://kidsfirst.stanford.edu/"><h2>The Hartwell Foundation KidsFirst Research Initiative:</h2></a></li>
+		<p>
+		Researchers at the UC Davis MIND Institute, Stanford University and Case Western University, collaborated with The Hartwell Foundation to reach thousands of families with the goal of creating better classifications for Autism Spectrum Disorder, which will help lead to better therapy and treatment. The dataset represents 6,700+ children from across the U.S. with 177 points of phenotypical & familial information.
+		</p>
 		<li><a href="{{ site.url }}/projects/gapmap/"><h2>GapMap</h2></a></li>
 		<li><a href="https://techlab.ucsf.edu/research/"><h2>Collaboration with Dr. Peter Washington's Tech Lab</h2></a></li>
 	</ul>
@@ -71,7 +74,7 @@ published: true
 	</p>
 	<ul>
 		<li>
-			<a href="http://www.ihart.org/home"><h3>iHART</h3></a>
+			<a href="http://www.ihart.org/home"><h2>iHART</h2></a>
 			<p>
 			In collaboration with the Geschwind Lab and the Hartwell Foundation, we sequenced and analyzed 1,006 families with two or more children with autism. This dataset is an important resource for studying inherited genetic risk factors for autism.
 			</p>
