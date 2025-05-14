@@ -24,7 +24,7 @@ published: true
     <p>
     </p>
 	<ul>
-		<li><a href="https://hartwellkidsfirst.my.canva.site/kidsfirst"><h2>KidsFirst</h2></a></li>
+		<li><a href="http://kidsfirst.stanford.edu/"><h2>KidsFirst</h2></a></li>
 		<li><a href="{{ site.url }}/projects/gapmap/"><h2>GapMap</h2></a></li>
 		<li><a href="https://techlab.ucsf.edu/research/"><h2>Collaboration with Dr. Peter Washington's Tech Lab</h2></a></li>
 	</ul>
@@ -71,6 +71,17 @@ published: true
 	</p>
 	<ul>
 		<li>
+			<a href="http://www.ihart.org/home"><h3>iHART</h3></a>
+			<p>
+			In collaboration with the Geschwind Lab and the Hartwell Foundation, we sequenced and analyzed 1,006 families with two or more children with autism. This dataset is an important resource for studying inherited genetic risk factors for autism.
+			</p>
+			<p>
+			Publications:<br>
+			Ruzzo EK, Pérez-Cano L, Jung JY, Wang LK, Kashef-Haghighi D, Hartl C, Singh C, Xu J, Hoekstra JN, Leventhal O, Leppä VM. Inherited and de novo genetic risk for autism impacts shared networks. Cell. 2019 Aug 8;178(4):850-66.
+			</p>
+		</li>
+		
+		<li>
 			<h3>The genome-wide sibling-pair linkage test</h3>
 			<p>
 			We developed a hidden Markov model for resolving crossovers and shared genetic material (IBD) in WGS data from families. We then developed a genome-wide sibling pair linkage test which uses IBD across large numbers of families to identify autism risk regions. By working with sibling IBD, our method is able to detect genomic regions harboring risk variants, even if the risk variants themselves are not sequenced and do not exhibit linkage disequilibrium with their neighbors. Furthermore, our method can identify parent-of-origin effects which are known to play a role in neurodevelopmental processes. Using crowd-sourced microarray data from 132 autism families, our method identified two autism risk regions which we were able to validate with an independent dataset. We then used variant transmission patterns to demonstrate that alternative splicing in one of the regions likely plays a role in autism risk. This work provides a proof-of-concept, demonstrating that extending family-based linkage analysis into the era of next-generation sequencing has the potential to increase our understanding of genetic risk factors for complex disorders.
@@ -78,17 +89,6 @@ published: true
 			<p>
 			Publications:<br>
 			Paskov K, Chrisman B, Stockham N, Washington PY, Dunlap K, Jung JY, Wall DP. Identifying crossovers and shared genetic material in whole genome sequencing data from families. Genome Research. 2023 Oct 1;33(10):1747-56.
-			</p>
-		</li>
-		
-		<li>
-			<h3>iHART</h3>
-			<p>
-			In collaboration with the Geschwind Lab and the Hartwell Foundation, we sequenced and analyzed 1,006 families with two or more children with autism. This dataset is an important resource for studying inherited genetic risk factors for autism.
-			</p>
-			<p>
-			Publications:<br>
-			Ruzzo EK, Pérez-Cano L, Jung JY, Wang LK, Kashef-Haghighi D, Hartl C, Singh C, Xu J, Hoekstra JN, Leventhal O, Leppä VM. Inherited and de novo genetic risk for autism impacts shared networks. Cell. 2019 Aug 8;178(4):850-66.
 			</p>
 		</li>
 		
